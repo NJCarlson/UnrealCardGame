@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CardGameSystem",
+			"Path": "..\\Source\\CardGameSystem.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CardGameSystemEditor",
+			"Path": "..\\Source\\CardGameSystemEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

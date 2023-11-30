@@ -1,0 +1,31 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\unrealcardgame\\cardgamesystem\\source\\cardgamesystem\\cardgamesystemgamemode.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\unrealcardgame\\cardgamesystem\\intermediate\\build\\win64\\x64\\cardgamesystemeditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "Includes": [
+            "e:\\unrealcardgame\\cardgamesystem\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\cardgamesystem\\definitions.cardgamesystem.h",
+            "e:\\unrealcardgame\\cardgamesystem\\source\\cardgamesystem\\cardgamesystemgamemode.h",
+            "c:\\unreal\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\unreal\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\unreal\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\unreal\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "e:\\unrealcardgame\\cardgamesystem\\intermediate\\build\\win64\\unrealeditor\\inc\\cardgamesystem\\uht\\cardgamesystemgamemode.generated.h",
+            "e:\\unrealcardgame\\cardgamesystem\\source\\cardgamesystem\\cardgamesystemplayercontroller.h",
+            "e:\\unrealcardgame\\cardgamesystem\\intermediate\\build\\win64\\unrealeditor\\inc\\cardgamesystem\\uht\\cardgamesystemplayercontroller.generated.h",
+            "e:\\unrealcardgame\\cardgamesystem\\source\\cardgamesystem\\cardgamesystemcharacter.h",
+            "c:\\unreal\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "c:\\unreal\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "c:\\unreal\\ue_5.3\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "c:\\unreal\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "c:\\unreal\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "c:\\unreal\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "c:\\unreal\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "c:\\unreal\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "e:\\unrealcardgame\\cardgamesystem\\intermediate\\build\\win64\\unrealeditor\\inc\\cardgamesystem\\uht\\cardgamesystemcharacter.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

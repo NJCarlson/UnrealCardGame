@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"E:/UnrealCardGame/CardGameSystem/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"E:/UnrealCardGame/CardGameSystem/Content/CardSystem/W_Card.uasset",
+				"E:/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset"
+			]
+		}
+	]
+}

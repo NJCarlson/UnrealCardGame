@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\UnrealCardGame\\CardGameSystem\\Source\\CardGameSystem\\CardGameSystem.Build.cs",
+		"E:\\UnrealCardGame\\CardGameSystem\\Source\\CardGameSystem.Target.cs",
+		"E:\\UnrealCardGame\\CardGameSystem\\Source\\CardGameSystemEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}

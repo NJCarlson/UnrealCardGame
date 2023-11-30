@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\unrealcardgame\\cardgamesystem\\source\\cardgamesystem\\cardgamesystem.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\unrealcardgame\\cardgamesystem\\intermediate\\build\\win64\\x64\\cardgamesystemeditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "Includes": [
+            "e:\\unrealcardgame\\cardgamesystem\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\cardgamesystem\\definitions.cardgamesystem.h",
+            "e:\\unrealcardgame\\cardgamesystem\\source\\cardgamesystem\\cardgamesystem.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
