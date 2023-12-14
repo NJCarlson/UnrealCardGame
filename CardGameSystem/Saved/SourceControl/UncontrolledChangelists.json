@@ -6,10 +6,15 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset",
-				"E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/TestCanvas.uasset",
 				"E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/BPI_AddCard.uasset",
 				"E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/S_CardInfo.uasset",
 				"E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/DT_Cards.uasset",
+				"E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHUD.uasset",
+				"E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/BPFL_Cards.uasset",
+				"E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/BP_CardController.uasset",
+				"E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/BP_CardGameMode.uasset",
+				"E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/TopDown/Maps/TopDownMap.umap",
+				"E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/TestCanvas.uasset",
 				"E:/UnrealCardGame/CardGameSystem/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
 				"E:/UnrealCardGame/CardGameSystem/Content/CardSystem/W_Card.uasset",
 				"E:/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset"
