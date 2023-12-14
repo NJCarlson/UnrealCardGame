@@ -2355,3 +2355,1375 @@ LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variab
 [2023.12.14-20.56.02:655][747]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
 [2023.12.14-20.56.02:665][747]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
 [2023.12.14-20.56.02:709][748]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2023.12.14-20.58.00:157][713]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.14-20.58.00:170][713]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.14-20.58.00:170][713]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2023.12.14-20.58.00:177][713]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 6 ms (total: 89 ms)
+[2023.12.14-20.58.00:177][713]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.14-20.58.00:177][713]PIE: New page: PIE session: TopDownMap (Dec 14, 2023, 10:58:00 AM)
+[2023.12.14-20.58.00:177][713]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-20.58.00:184][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006843s)
+[2023.12.14-20.58.00:184][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.006890s)
+[2023.12.14-20.58.00:206][713]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2023.12.14-20.58.00:208][713]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-20.58.00:208][713]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-20.58.00:209][713]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.14-20.58.00:209][713]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.14-20.58.00:210][713]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.14-20.58.00:210][713]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.14-20.58.00:210][713]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.14-20.58.00:211][713]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.14-20.58.00:211][713]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 425 ms)
+[2023.12.14-20.58.00:211][713]LogPlayLevel: PIE: World Init took: (0.003427s)
+[2023.12.14-20.58.00:211][713]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.12.14-20.58.00:211][713]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.14-20.58.00:211][713]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.14-20.58.00:211][713]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.14-20.58.00:211][713]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.14-20.58.00:212][713]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.14-20.58.00:212][713]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.14-20.58.00:212][713]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.14-20.58.00:212][713]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.14-20.58.00:212][713]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.14-20.58.00:212][713]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.14-20.58.00:212][713]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.14-20.58.00:215][713]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.14-20.58.00:247][713]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (3- Arctis 7 Chat)
+[2023.12.14-20.58.00:248][713]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.14-20.58.00:248][713]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.14-20.58.00:248][713]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.14-20.58.00:249][713]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2023.12.14-20.58.00:249][713]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2023.12.14-20.58.00:251][713]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2023.12.14-20.58.00:251][713]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2023.12.14-20.58.00:251][713]LogInit: FAudioDevice initialized with ID 13.
+[2023.12.14-20.58.00:251][713]LogAudio: Display: Audio Device (ID: 13) registered with world 'TopDownMap'.
+[2023.12.14-20.58.00:251][713]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2023.12.14-20.58.00:254][713]LogLoad: Game class is 'BP_CardGameMode_C'
+[2023.12.14-20.58.00:258][713]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.14-15.58.00
+[2023.12.14-20.58.00:258][713]LogWorld: Bringing up level for play took: 0.003498
+[2023.12.14-20.58.00:261][713]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2023.12.14-20.58.00:263][713]PIE: Server logged in
+[2023.12.14-20.58.00:265][713]PIE: Play in editor total start time 0.094 seconds.
+[2023.12.14-20.58.16:150][842]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-20.58.16:150][842]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-20.58.16:150][842]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.14-20.58.16:151][842]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-20.58.16:151][842]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.14-20.58.16:155][842]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.14-20.58.16:163][842]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-20.58.16:187][842]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-20.58.16:188][842]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2023.12.14-20.58.16:188][842]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.12.14-20.58.16:190][842]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.12.14-20.58.16:199][842]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.12.14-20.58.16:245][843]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2023.12.14-20.59.57:671][580]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.59.57:735][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_Card" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_Card.uasset" SILENT=true
+[2023.12.14-20.59.57:781][580]LogSavePackage: Moving output files for package: /Game/CardSystem/W_Card
+[2023.12.14-20.59.57:782][580]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardC25D8A194975FBA59FE3D391576CC728.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_Card.uasset'
+[2023.12.14-20.59.57:800][580]LogFileHelpers: InternalPromptForCheckoutAndSave took 129 ms (total: 2.96 sec)
+[2023.12.14-20.59.57:803][580]AssetCheck: New page: Asset Save: W_Card
+[2023.12.14-20.59.57:804][580]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_Card.W_Card
+[2023.12.14-21.01.27:782][335]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.14-21.01.27:795][335]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.14-21.01.27:795][335]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2023.12.14-21.01.27:802][335]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 6 ms (total: 96 ms)
+[2023.12.14-21.01.27:802][335]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.14-21.01.27:802][335]PIE: New page: PIE session: TopDownMap (Dec 14, 2023, 11:01:27 AM)
+[2023.12.14-21.01.27:802][335]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-21.01.27:809][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007108s)
+[2023.12.14-21.01.27:809][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.007157s)
+[2023.12.14-21.01.27:831][335]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2023.12.14-21.01.27:834][335]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-21.01.27:834][335]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-21.01.27:835][335]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.14-21.01.27:836][335]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.14-21.01.27:836][335]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.14-21.01.27:836][335]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.14-21.01.27:836][335]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.14-21.01.27:837][335]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.14-21.01.27:838][335]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 427 ms)
+[2023.12.14-21.01.27:838][335]LogPlayLevel: PIE: World Init took: (0.003435s)
+[2023.12.14-21.01.27:838][335]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.12.14-21.01.27:838][335]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.14-21.01.27:838][335]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.14-21.01.27:838][335]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.14-21.01.27:838][335]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.14-21.01.27:838][335]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.14-21.01.27:838][335]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.14-21.01.27:838][335]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.14-21.01.27:838][335]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.14-21.01.27:838][335]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.14-21.01.27:838][335]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.14-21.01.27:839][335]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.14-21.01.27:841][335]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.14-21.01.27:872][335]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (3- Arctis 7 Chat)
+[2023.12.14-21.01.27:873][335]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.14-21.01.27:873][335]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.14-21.01.27:873][335]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.14-21.01.27:874][335]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2023.12.14-21.01.27:874][335]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2023.12.14-21.01.27:876][335]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2023.12.14-21.01.27:876][335]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2023.12.14-21.01.27:876][335]LogInit: FAudioDevice initialized with ID 14.
+[2023.12.14-21.01.27:876][335]LogAudio: Display: Audio Device (ID: 14) registered with world 'TopDownMap'.
+[2023.12.14-21.01.27:876][335]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2023.12.14-21.01.27:879][335]LogLoad: Game class is 'BP_CardGameMode_C'
+[2023.12.14-21.01.27:883][335]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.14-16.01.27
+[2023.12.14-21.01.27:883][335]LogWorld: Bringing up level for play took: 0.003595
+[2023.12.14-21.01.27:886][335]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2023.12.14-21.01.27:889][335]PIE: Server logged in
+[2023.12.14-21.01.27:890][335]PIE: Play in editor total start time 0.095 seconds.
+[2023.12.14-21.01.40:820][268]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-21.01.40:820][268]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-21.01.40:821][268]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.14-21.01.40:821][268]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-21.01.40:821][268]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.14-21.01.40:825][268]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.14-21.01.40:833][268]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-21.01.40:860][268]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.14-21.01.40:860][268]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2023.12.14-21.01.40:860][268]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.12.14-21.01.40:862][268]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.12.14-21.01.40:868][268]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-21.01.40:872][268]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2023.12.14-21.01.40:918][269]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2023.12.14-21.01.42:166][358]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.14-21.01.42:179][358]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.14-21.01.42:179][358]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2023.12.14-21.01.42:186][358]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 6 ms (total: 103 ms)
+[2023.12.14-21.01.42:186][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.14-21.01.42:186][358]PIE: New page: PIE session: TopDownMap (Dec 14, 2023, 11:01:42 AM)
+[2023.12.14-21.01.42:186][358]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-21.01.42:193][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006752s)
+[2023.12.14-21.01.42:193][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.006795s)
+[2023.12.14-21.01.42:217][358]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2023.12.14-21.01.42:219][358]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-21.01.42:219][358]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-21.01.42:219][358]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.14-21.01.42:220][358]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.14-21.01.42:220][358]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.14-21.01.42:220][358]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.14-21.01.42:220][358]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.14-21.01.42:222][358]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.14-21.01.42:222][358]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 429 ms)
+[2023.12.14-21.01.42:222][358]LogPlayLevel: PIE: World Init took: (0.003264s)
+[2023.12.14-21.01.42:222][358]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.12.14-21.01.42:222][358]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.14-21.01.42:222][358]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.14-21.01.42:222][358]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.14-21.01.42:222][358]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.14-21.01.42:222][358]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.14-21.01.42:222][358]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.14-21.01.42:222][358]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.14-21.01.42:222][358]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.14-21.01.42:223][358]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.14-21.01.42:223][358]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.14-21.01.42:223][358]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.14-21.01.42:225][358]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.14-21.01.42:256][358]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (3- Arctis 7 Chat)
+[2023.12.14-21.01.42:256][358]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.14-21.01.42:256][358]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.14-21.01.42:256][358]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.14-21.01.42:257][358]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2023.12.14-21.01.42:257][358]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2023.12.14-21.01.42:259][358]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2023.12.14-21.01.42:259][358]LogInit: FAudioDevice initialized with ID 15.
+[2023.12.14-21.01.42:259][358]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2023.12.14-21.01.42:259][358]LogAudio: Display: Audio Device (ID: 15) registered with world 'TopDownMap'.
+[2023.12.14-21.01.42:259][358]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2023.12.14-21.01.42:262][358]LogLoad: Game class is 'BP_CardGameMode_C'
+[2023.12.14-21.01.42:266][358]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.14-16.01.42
+[2023.12.14-21.01.42:266][358]LogWorld: Bringing up level for play took: 0.003343
+[2023.12.14-21.01.42:269][358]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2023.12.14-21.01.42:271][358]PIE: Server logged in
+[2023.12.14-21.01.42:272][358]PIE: Play in editor total start time 0.093 seconds.
+[2023.12.14-21.04.20:240][264]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-21.04.20:240][264]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-21.04.20:240][264]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.14-21.04.20:241][264]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-21.04.20:241][264]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.14-21.04.20:247][264]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.14-21.04.20:256][264]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-21.04.20:278][264]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-21.04.20:278][264]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2023.12.14-21.04.20:279][264]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.12.14-21.04.20:284][264]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.12.14-21.04.20:295][264]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2023.12.14-21.04.20:350][265]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2023.12.14-21.05.43:715][932]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.14-21.05.43:727][932]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.14-21.05.43:727][932]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2023.12.14-21.05.43:735][932]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 7 ms (total: 110 ms)
+[2023.12.14-21.05.43:735][932]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.14-21.05.43:735][932]PIE: New page: PIE session: TopDownMap (Dec 14, 2023, 11:05:43 AM)
+[2023.12.14-21.05.43:735][932]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-21.05.43:743][932]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007629s)
+[2023.12.14-21.05.43:743][932]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.007715s)
+[2023.12.14-21.05.43:764][932]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2023.12.14-21.05.43:766][932]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-21.05.43:766][932]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-21.05.43:767][932]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.14-21.05.43:768][932]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.14-21.05.43:768][932]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.14-21.05.43:768][932]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.14-21.05.43:768][932]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.14-21.05.43:770][932]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.14-21.05.43:770][932]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 431 ms)
+[2023.12.14-21.05.43:770][932]LogPlayLevel: PIE: World Init took: (0.003845s)
+[2023.12.14-21.05.43:770][932]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.12.14-21.05.43:770][932]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.14-21.05.43:770][932]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.14-21.05.43:770][932]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.14-21.05.43:770][932]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.14-21.05.43:770][932]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.14-21.05.43:770][932]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.14-21.05.43:770][932]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.14-21.05.43:770][932]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.14-21.05.43:771][932]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.14-21.05.43:771][932]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.14-21.05.43:771][932]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.14-21.05.43:773][932]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.14-21.05.43:807][932]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (3- Arctis 7 Chat)
+[2023.12.14-21.05.43:807][932]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.14-21.05.43:807][932]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.14-21.05.43:807][932]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.14-21.05.43:808][932]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2023.12.14-21.05.43:808][932]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2023.12.14-21.05.43:811][932]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2023.12.14-21.05.43:811][932]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2023.12.14-21.05.43:811][932]LogInit: FAudioDevice initialized with ID 16.
+[2023.12.14-21.05.43:811][932]LogAudio: Display: Audio Device (ID: 16) registered with world 'TopDownMap'.
+[2023.12.14-21.05.43:811][932]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2023.12.14-21.05.43:814][932]LogLoad: Game class is 'BP_CardGameMode_C'
+[2023.12.14-21.05.43:817][932]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.14-16.05.43
+[2023.12.14-21.05.43:818][932]LogWorld: Bringing up level for play took: 0.003478
+[2023.12.14-21.05.43:821][932]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2023.12.14-21.05.43:824][932]PIE: Server logged in
+[2023.12.14-21.05.43:825][932]PIE: Play in editor total start time 0.098 seconds.
+[2023.12.14-21.05.54:630][662]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-21.05.54:630][662]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-21.05.54:630][662]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.14-21.05.54:630][662]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-21.05.54:630][662]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.14-21.05.54:634][662]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.14-21.05.54:642][662]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-21.05.54:664][662]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-21.05.54:665][662]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2023.12.14-21.05.54:665][662]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.12.14-21.05.54:667][662]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.12.14-21.05.54:676][662]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2023.12.14-21.05.54:720][663]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2023.12.14-21.06.27:293][906]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.14-21.06.27:306][906]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.14-21.06.27:306][906]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2023.12.14-21.06.27:314][906]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 7 ms (total: 118 ms)
+[2023.12.14-21.06.27:314][906]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.14-21.06.27:314][906]PIE: New page: PIE session: TopDownMap (Dec 14, 2023, 11:06:27 AM)
+[2023.12.14-21.06.27:314][906]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-21.06.27:321][906]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007322s)
+[2023.12.14-21.06.27:321][906]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.007371s)
+[2023.12.14-21.06.27:345][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.12.14-21.06.27:346][906]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-21.06.27:347][906]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-21.06.27:347][906]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.14-21.06.27:348][906]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.14-21.06.27:348][906]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.14-21.06.27:348][906]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.14-21.06.27:348][906]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.14-21.06.27:350][906]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.14-21.06.27:350][906]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 433 ms)
+[2023.12.14-21.06.27:350][906]LogPlayLevel: PIE: World Init took: (0.003489s)
+[2023.12.14-21.06.27:350][906]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.12.14-21.06.27:350][906]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.14-21.06.27:350][906]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.14-21.06.27:350][906]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.14-21.06.27:350][906]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.14-21.06.27:350][906]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.14-21.06.27:350][906]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.14-21.06.27:350][906]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.14-21.06.27:350][906]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.14-21.06.27:351][906]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.14-21.06.27:351][906]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.14-21.06.27:351][906]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.14-21.06.27:353][906]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.14-21.06.27:386][906]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (3- Arctis 7 Chat)
+[2023.12.14-21.06.27:386][906]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.14-21.06.27:386][906]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.14-21.06.27:386][906]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.14-21.06.27:387][906]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2023.12.14-21.06.27:387][906]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2023.12.14-21.06.27:389][906]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2023.12.14-21.06.27:389][906]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2023.12.14-21.06.27:389][906]LogInit: FAudioDevice initialized with ID 17.
+[2023.12.14-21.06.27:390][906]LogAudio: Display: Audio Device (ID: 17) registered with world 'TopDownMap'.
+[2023.12.14-21.06.27:390][906]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2023.12.14-21.06.27:393][906]LogLoad: Game class is 'BP_CardGameMode_C'
+[2023.12.14-21.06.27:396][906]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.14-16.06.27
+[2023.12.14-21.06.27:397][906]LogWorld: Bringing up level for play took: 0.003257
+[2023.12.14-21.06.27:400][906]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2023.12.14-21.06.27:402][906]PIE: Server logged in
+[2023.12.14-21.06.27:403][906]PIE: Play in editor total start time 0.097 seconds.
+[2023.12.14-21.06.38:189][668]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-21.06.38:190][668]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-21.06.38:190][668]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.14-21.06.38:190][668]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-21.06.38:190][668]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.14-21.06.38:194][668]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.14-21.06.38:202][668]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-21.06.38:226][668]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-21.06.38:227][668]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2023.12.14-21.06.38:227][668]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.12.14-21.06.38:229][668]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.12.14-21.06.38:239][668]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2023.12.14-21.06.38:359][669]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2023.12.14-21.37.04:708][423]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2023.12.14-21.37.04:712][423]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDown/Maps/TopDownMap' took 0.033
+[2023.12.14-21.37.04:712][423]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/CardSystem/W_CardHand] ([2] browsable assets)...
+[2023.12.14-21.37.04:716][423]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand]
+[2023.12.14-21.37.04:716][423]OBJ SavePackage: Finished generating thumbnails for package [/Game/CardSystem/W_CardHand]
+[2023.12.14-21.37.04:716][423]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/Autosaves/Game/CardSystem/W_CardHand_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2023.12.14-21.37.04:744][423]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CardSystem/W_CardHand_Auto4
+[2023.12.14-21.37.04:745][423]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHand_Auto47B5CC1E34B6BA64602E094AC18BD7324.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/Autosaves/Game/CardSystem/W_CardHand_Auto4.uasset'
+[2023.12.14-21.37.04:747][423]LogFileHelpers: Auto-saving content packages took 0.035
+[2023.12.14-21.45.03:117][990]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-21.45.03:196][990]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2023.12.14-21.45.04:533][104]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-21.45.04:593][104]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-21.45.04:626][104]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-21.45.04:627][104]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHandFF50BE24460C17DB8B6279917667EA4F.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-21.45.04:637][104]LogFileHelpers: InternalPromptForCheckoutAndSave took 103 ms (total: 3.07 sec)
+[2023.12.14-21.45.04:639][104]AssetCheck: New page: Asset Save: W_CardHand
+[2023.12.14-21.45.04:639][104]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-21.47.38:388][811]LogDerivedDataCache: C:/Users/Nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.228 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 761 files in 1199 folders with total size 24 MiB.
+[2023.12.14-21.48.10:559][916]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-21.48.10:625][916]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2023.12.14-21.48.11:212][960]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-21.48.11:276][960]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-21.48.11:311][960]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-21.48.11:312][960]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHandB782CA744E64839E0B62F8937BE1963C.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-21.48.11:321][960]LogFileHelpers: InternalPromptForCheckoutAndSave took 109 ms (total: 3.18 sec)
+[2023.12.14-21.48.11:324][960]AssetCheck: New page: Asset Save: W_CardHand
+[2023.12.14-21.48.11:324][960]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-21.48.13:728][138]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.14-21.48.13:741][138]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.14-21.48.13:742][138]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2023.12.14-21.48.13:748][138]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 6 ms (total: 124 ms)
+[2023.12.14-21.48.13:749][138]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.14-21.48.13:749][138]PIE: New page: PIE session: TopDownMap (Dec 14, 2023, 11:48:13 AM)
+[2023.12.14-21.48.13:749][138]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-21.48.13:756][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006878s)
+[2023.12.14-21.48.13:756][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.006923s)
+[2023.12.14-21.48.13:776][138]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2023.12.14-21.48.13:779][138]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-21.48.13:779][138]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-21.48.13:780][138]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.14-21.48.13:780][138]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.14-21.48.13:780][138]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.14-21.48.13:780][138]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.14-21.48.13:780][138]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.14-21.48.13:782][138]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.14-21.48.13:782][138]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 434 ms)
+[2023.12.14-21.48.13:782][138]LogPlayLevel: PIE: World Init took: (0.003383s)
+[2023.12.14-21.48.13:782][138]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2023.12.14-21.48.13:782][138]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.14-21.48.13:782][138]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.14-21.48.13:782][138]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.14-21.48.13:782][138]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.14-21.48.13:782][138]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.14-21.48.13:782][138]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.14-21.48.13:782][138]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.14-21.48.13:782][138]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.14-21.48.13:783][138]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.14-21.48.13:783][138]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.14-21.48.13:783][138]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.14-21.48.13:786][138]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.14-21.48.13:819][138]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (3- Arctis 7 Chat)
+[2023.12.14-21.48.13:819][138]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.14-21.48.13:819][138]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.14-21.48.13:819][138]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.14-21.48.13:821][138]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2023.12.14-21.48.13:821][138]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2023.12.14-21.48.13:822][138]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2023.12.14-21.48.13:822][138]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2023.12.14-21.48.13:822][138]LogInit: FAudioDevice initialized with ID 18.
+[2023.12.14-21.48.13:822][138]LogAudio: Display: Audio Device (ID: 18) registered with world 'TopDownMap'.
+[2023.12.14-21.48.13:822][138]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2023.12.14-21.48.13:826][138]LogLoad: Game class is 'BP_CardGameMode_C'
+[2023.12.14-21.48.13:830][138]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.14-16.48.13
+[2023.12.14-21.48.13:830][138]LogWorld: Bringing up level for play took: 0.003310
+[2023.12.14-21.48.13:833][138]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2023.12.14-21.48.13:835][138]PIE: Server logged in
+[2023.12.14-21.48.13:837][138]PIE: Play in editor total start time 0.095 seconds.
+[2023.12.14-21.48.25:068][915]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-21.48.25:068][915]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-21.48.25:068][915]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.14-21.48.25:069][915]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-21.48.25:069][915]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.14-21.48.25:094][915]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.14-21.48.25:102][915]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-21.48.25:126][915]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.14-21.48.25:126][915]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2023.12.14-21.48.25:126][915]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.12.14-21.48.25:128][915]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.12.14-21.48.25:133][915]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-21.48.25:137][915]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2023.12.14-21.48.25:254][916]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2023.12.14-21.51.05:399][103]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-21.51.05:466][103]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2023.12.14-21.51.06:469][198]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-21.51.06:540][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-21.51.06:576][198]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-21.51.06:577][198]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHand1F5CE9E74473235F27FDE8A50451C804.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-21.51.06:587][198]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 3.29 sec)
+[2023.12.14-21.51.06:589][198]AssetCheck: New page: Asset Save: W_CardHand
+[2023.12.14-21.51.06:589][198]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-21.51.11:522][466]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.14-21.51.11:537][466]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.14-21.51.11:537][466]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2023.12.14-21.51.11:544][466]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 7 ms (total: 132 ms)
+[2023.12.14-21.51.11:544][466]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.14-21.51.11:544][466]PIE: New page: PIE session: TopDownMap (Dec 14, 2023, 11:51:11 AM)
+[2023.12.14-21.51.11:544][466]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-21.51.11:552][466]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007330s)
+[2023.12.14-21.51.11:552][466]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.007382s)
+[2023.12.14-21.51.11:576][466]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.12.14-21.51.11:580][466]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-21.51.11:580][466]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-21.51.11:581][466]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.14-21.51.11:582][466]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.14-21.51.11:582][466]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.14-21.51.11:582][466]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.14-21.51.11:582][466]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.14-21.51.11:583][466]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.14-21.51.11:583][466]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 436 ms)
+[2023.12.14-21.51.11:584][466]LogPlayLevel: PIE: World Init took: (0.003517s)
+[2023.12.14-21.51.11:584][466]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.12.14-21.51.11:584][466]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.14-21.51.11:584][466]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.14-21.51.11:584][466]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.14-21.51.11:584][466]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.14-21.51.11:584][466]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.14-21.51.11:584][466]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.14-21.51.11:584][466]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.14-21.51.11:584][466]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.14-21.51.11:584][466]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.14-21.51.11:584][466]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.14-21.51.11:585][466]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.14-21.51.11:587][466]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.14-21.51.11:620][466]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (3- Arctis 7 Chat)
+[2023.12.14-21.51.11:620][466]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.14-21.51.11:620][466]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.14-21.51.11:620][466]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.14-21.51.11:621][466]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2023.12.14-21.51.11:621][466]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2023.12.14-21.51.11:625][466]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2023.12.14-21.51.11:625][466]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2023.12.14-21.51.11:625][466]LogInit: FAudioDevice initialized with ID 19.
+[2023.12.14-21.51.11:625][466]LogAudio: Display: Audio Device (ID: 19) registered with world 'TopDownMap'.
+[2023.12.14-21.51.11:625][466]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2023.12.14-21.51.11:632][466]LogLoad: Game class is 'BP_CardGameMode_C'
+[2023.12.14-21.51.11:636][466]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.14-16.51.11
+[2023.12.14-21.51.11:637][466]LogWorld: Bringing up level for play took: 0.004761
+[2023.12.14-21.51.11:642][466]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2023.12.14-21.51.11:645][466]PIE: Server logged in
+[2023.12.14-21.51.11:646][466]PIE: Play in editor total start time 0.11 seconds.
+[2023.12.14-21.51.15:887][757]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-21.51.15:887][757]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-21.51.15:888][757]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.14-21.51.15:888][757]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-21.51.15:888][757]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.14-21.51.15:895][757]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.14-21.51.15:903][757]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-21.51.15:927][757]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.14-21.51.15:927][757]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2023.12.14-21.51.15:927][757]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.12.14-21.51.15:929][757]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.12.14-21.51.15:934][757]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-21.51.15:938][757]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2023.12.14-21.51.16:053][758]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2023.12.14-21.52.40:446][626]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2023.12.14-21.52.40:451][626]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDown/Maps/TopDownMap' took 0.033
+[2023.12.14-21.52.40:452][626]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CardSystem/W_CardHand] ([2] browsable assets)...
+[2023.12.14-21.52.40:452][626]OBJ SavePackage: Finished generating thumbnails for package [/Game/CardSystem/W_CardHand]
+[2023.12.14-21.52.40:452][626]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/Autosaves/Game/CardSystem/W_CardHand_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2023.12.14-21.52.40:489][626]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CardSystem/W_CardHand_Auto5
+[2023.12.14-21.52.40:489][626]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHand_Auto522FD30A14EF3750DFE0C11BDE7B9DC93.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/Autosaves/Game/CardSystem/W_CardHand_Auto5.uasset'
+[2023.12.14-21.52.40:491][626]LogFileHelpers: Auto-saving content packages took 0.039
+[2023.12.14-21.53.11:463][ 42]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-21.53.11:536][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-21.53.11:585][ 42]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-21.53.11:586][ 42]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHand85BABE5D4CF00CAD8474BA81A99A639B.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-21.53.11:597][ 42]LogFileHelpers: InternalPromptForCheckoutAndSave took 134 ms (total: 3.43 sec)
+[2023.12.14-21.53.11:599][ 42]AssetCheck: New page: Asset Save: W_CardHand
+[2023.12.14-21.53.11:599][ 42]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-21.53.16:280][247]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.14-21.53.16:299][247]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.14-21.53.16:299][247]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2023.12.14-21.53.16:307][247]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 7 ms (total: 139 ms)
+[2023.12.14-21.53.16:307][247]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.12.14-21.53.16:310][247]LogPlayLevel: [PlayLevel] Compiling W_CardHand before play...
+[2023.12.14-21.53.16:448][247]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2023.12.14-21.53.16:453][247]LogPlayLevel: PlayLevel: Blueprint regeneration took 145 ms (1 blueprints)
+[2023.12.14-21.53.16:453][247]PIE: New page: PIE session: TopDownMap (Dec 14, 2023, 11:53:16 AM)
+[2023.12.14-21.53.16:453][247]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-21.53.16:460][247]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007222s)
+[2023.12.14-21.53.16:460][247]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.007270s)
+[2023.12.14-21.53.16:479][247]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2023.12.14-21.53.16:481][247]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-21.53.16:481][247]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-21.53.16:482][247]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.14-21.53.16:483][247]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.14-21.53.16:483][247]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.14-21.53.16:483][247]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.14-21.53.16:483][247]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.14-21.53.16:485][247]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.14-21.53.16:485][247]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 438 ms)
+[2023.12.14-21.53.16:485][247]LogPlayLevel: PIE: World Init took: (0.003602s)
+[2023.12.14-21.53.16:485][247]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.12.14-21.53.16:485][247]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.14-21.53.16:485][247]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.14-21.53.16:485][247]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.14-21.53.16:485][247]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.14-21.53.16:485][247]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.14-21.53.16:485][247]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.14-21.53.16:485][247]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.14-21.53.16:485][247]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.14-21.53.16:486][247]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.14-21.53.16:486][247]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.14-21.53.16:486][247]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.14-21.53.16:489][247]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.14-21.53.16:522][247]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (3- Arctis 7 Chat)
+[2023.12.14-21.53.16:522][247]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.14-21.53.16:522][247]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.14-21.53.16:522][247]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.14-21.53.16:523][247]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2023.12.14-21.53.16:523][247]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2023.12.14-21.53.16:525][247]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2023.12.14-21.53.16:525][247]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2023.12.14-21.53.16:525][247]LogInit: FAudioDevice initialized with ID 20.
+[2023.12.14-21.53.16:525][247]LogAudio: Display: Audio Device (ID: 20) registered with world 'TopDownMap'.
+[2023.12.14-21.53.16:525][247]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2023.12.14-21.53.16:529][247]LogLoad: Game class is 'BP_CardGameMode_C'
+[2023.12.14-21.53.16:532][247]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.14-16.53.16
+[2023.12.14-21.53.16:533][247]LogWorld: Bringing up level for play took: 0.003528
+[2023.12.14-21.53.16:536][247]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2023.12.14-21.53.16:539][247]PIE: Server logged in
+[2023.12.14-21.53.16:540][247]PIE: Play in editor total start time 0.241 seconds.
+[2023.12.14-21.53.27:768][ 64]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-21.53.27:768][ 64]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-21.53.27:768][ 64]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.14-21.53.27:768][ 64]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-21.53.27:769][ 64]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.14-21.53.27:772][ 64]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.14-21.53.27:780][ 64]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-21.53.27:806][ 64]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-21.53.27:807][ 64]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2023.12.14-21.53.27:807][ 64]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.12.14-21.53.27:811][ 64]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.12.14-21.53.27:821][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2023.12.14-21.53.27:939][ 65]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2023.12.14-21.53.28:590][106]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.14-21.53.28:604][106]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.14-21.53.28:604][106]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2023.12.14-21.53.28:611][106]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 7 ms (total: 146 ms)
+[2023.12.14-21.53.28:611][106]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.14-21.53.28:611][106]PIE: New page: PIE session: TopDownMap (Dec 14, 2023, 11:53:28 AM)
+[2023.12.14-21.53.28:611][106]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-21.53.28:618][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006787s)
+[2023.12.14-21.53.28:618][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.006833s)
+[2023.12.14-21.53.28:641][106]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.12.14-21.53.28:643][106]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-21.53.28:643][106]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-21.53.28:644][106]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.14-21.53.28:644][106]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.14-21.53.28:644][106]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.14-21.53.28:644][106]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.14-21.53.28:645][106]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.14-21.53.28:646][106]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.14-21.53.28:646][106]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 440 ms)
+[2023.12.14-21.53.28:646][106]LogPlayLevel: PIE: World Init took: (0.003258s)
+[2023.12.14-21.53.28:646][106]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.12.14-21.53.28:646][106]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.14-21.53.28:646][106]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.14-21.53.28:646][106]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.14-21.53.28:646][106]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.14-21.53.28:646][106]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.14-21.53.28:646][106]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.14-21.53.28:646][106]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.14-21.53.28:647][106]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.14-21.53.28:647][106]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.14-21.53.28:647][106]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.14-21.53.28:647][106]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.14-21.53.28:649][106]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.14-21.53.28:680][106]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (3- Arctis 7 Chat)
+[2023.12.14-21.53.28:681][106]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.14-21.53.28:681][106]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.14-21.53.28:681][106]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.14-21.53.28:681][106]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2023.12.14-21.53.28:681][106]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2023.12.14-21.53.28:684][106]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2023.12.14-21.53.28:684][106]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2023.12.14-21.53.28:684][106]LogInit: FAudioDevice initialized with ID 21.
+[2023.12.14-21.53.28:684][106]LogAudio: Display: Audio Device (ID: 21) registered with world 'TopDownMap'.
+[2023.12.14-21.53.28:684][106]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2023.12.14-21.53.28:688][106]LogLoad: Game class is 'BP_CardGameMode_C'
+[2023.12.14-21.53.28:691][106]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.14-16.53.28
+[2023.12.14-21.53.28:691][106]LogWorld: Bringing up level for play took: 0.003210
+[2023.12.14-21.53.28:694][106]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2023.12.14-21.53.28:696][106]PIE: Server logged in
+[2023.12.14-21.53.28:697][106]PIE: Play in editor total start time 0.094 seconds.
+[2023.12.14-21.55.25:248][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-21.55.25:248][ 31]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-21.55.25:248][ 31]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.14-21.55.25:248][ 31]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-21.55.25:248][ 31]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.14-21.55.25:252][ 31]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.14-21.55.25:261][ 31]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-21.55.25:285][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-21.55.25:286][ 31]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2023.12.14-21.55.25:286][ 31]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.12.14-21.55.25:288][ 31]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.12.14-21.55.25:297][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2023.12.14-21.55.25:415][ 32]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2023.12.14-21.58.26:653][457]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-21.58.26:733][457]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2023.12.14-21.58.27:849][547]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-21.58.27:909][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-21.58.27:947][547]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-21.58.27:948][547]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHandA963D1DD452C643FFBA6399799F06347.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-21.58.27:957][547]LogFileHelpers: InternalPromptForCheckoutAndSave took 107 ms (total: 3.53 sec)
+[2023.12.14-21.58.27:960][547]AssetCheck: New page: Asset Save: W_CardHand
+[2023.12.14-21.58.27:960][547]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-21.59.52:211][829]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-21.59.52:276][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-21.59.52:315][829]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-21.59.52:316][829]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHand5211F3874B6A682177305A9176E2B3E6.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-21.59.52:326][829]LogFileHelpers: InternalPromptForCheckoutAndSave took 114 ms (total: 3.65 sec)
+[2023.12.14-21.59.52:328][829]AssetCheck: New page: Asset Save: W_CardHand
+[2023.12.14-21.59.52:328][829]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-21.59.54:812][ 14]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.14-21.59.54:825][ 14]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.14-21.59.54:825][ 14]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2023.12.14-21.59.54:832][ 14]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 6 ms (total: 153 ms)
+[2023.12.14-21.59.54:832][ 14]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.12.14-21.59.54:835][ 14]LogPlayLevel: [PlayLevel] Compiling W_CardHand before play...
+[2023.12.14-21.59.54:934][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2023.12.14-21.59.54:937][ 14]LogPlayLevel: PlayLevel: Blueprint regeneration took 105 ms (1 blueprints)
+[2023.12.14-21.59.54:938][ 14]PIE: New page: PIE session: TopDownMap (Dec 14, 2023, 11:59:54 AM)
+[2023.12.14-21.59.54:938][ 14]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-21.59.54:945][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007035s)
+[2023.12.14-21.59.54:945][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.007086s)
+[2023.12.14-21.59.54:964][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.12.14-21.59.54:966][ 14]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-21.59.54:966][ 14]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-21.59.54:967][ 14]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.14-21.59.54:968][ 14]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.14-21.59.54:968][ 14]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.14-21.59.54:968][ 14]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.14-21.59.54:968][ 14]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.14-21.59.54:970][ 14]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.14-21.59.54:970][ 14]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 442 ms)
+[2023.12.14-21.59.54:970][ 14]LogPlayLevel: PIE: World Init took: (0.003676s)
+[2023.12.14-21.59.54:970][ 14]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2023.12.14-21.59.54:970][ 14]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.14-21.59.54:970][ 14]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.14-21.59.54:970][ 14]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.14-21.59.54:970][ 14]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.14-21.59.54:970][ 14]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.14-21.59.54:970][ 14]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.14-21.59.54:970][ 14]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.14-21.59.54:970][ 14]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.14-21.59.54:971][ 14]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.14-21.59.54:971][ 14]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.14-21.59.54:971][ 14]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.14-21.59.54:973][ 14]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.14-21.59.55:005][ 14]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (3- Arctis 7 Chat)
+[2023.12.14-21.59.55:005][ 14]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.14-21.59.55:005][ 14]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.14-21.59.55:005][ 14]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.14-21.59.55:006][ 14]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2023.12.14-21.59.55:006][ 14]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2023.12.14-21.59.55:008][ 14]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2023.12.14-21.59.55:008][ 14]LogInit: FAudioDevice initialized with ID 22.
+[2023.12.14-21.59.55:009][ 14]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2023.12.14-21.59.55:009][ 14]LogAudio: Display: Audio Device (ID: 22) registered with world 'TopDownMap'.
+[2023.12.14-21.59.55:009][ 14]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2023.12.14-21.59.55:012][ 14]LogLoad: Game class is 'BP_CardGameMode_C'
+[2023.12.14-21.59.55:015][ 14]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.14-16.59.55
+[2023.12.14-21.59.55:016][ 14]LogWorld: Bringing up level for play took: 0.003323
+[2023.12.14-21.59.55:019][ 14]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2023.12.14-21.59.55:021][ 14]PIE: Server logged in
+[2023.12.14-21.59.55:022][ 14]PIE: Play in editor total start time 0.197 seconds.
+[2023.12.14-22.00.04:435][540]LogViewport: Scene viewport resized to 1031x910, mode Windowed.
+[2023.12.14-22.00.04:472][541]LogViewport: Scene viewport resized to 1116x910, mode Windowed.
+[2023.12.14-22.00.04:549][542]LogViewport: Scene viewport resized to 1265x910, mode Windowed.
+[2023.12.14-22.00.04:625][543]LogViewport: Scene viewport resized to 1267x910, mode Windowed.
+[2023.12.14-22.00.04:721][544]LogViewport: Scene viewport resized to 1277x910, mode Windowed.
+[2023.12.14-22.00.04:773][545]LogViewport: Scene viewport resized to 1289x910, mode Windowed.
+[2023.12.14-22.00.04:836][546]LogViewport: Scene viewport resized to 1308x910, mode Windowed.
+[2023.12.14-22.00.20:757][643]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-22.00.20:757][643]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-22.00.20:758][643]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.14-22.00.20:758][643]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-22.00.20:758][643]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.14-22.00.20:769][643]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.14-22.00.20:778][643]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-22.00.20:802][643]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-22.00.20:803][643]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2023.12.14-22.00.20:803][643]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.12.14-22.00.20:805][643]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.12.14-22.00.20:814][643]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.12.14-22.00.20:950][644]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2023.12.14-22.01.36:106][777]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-22.01.36:179][777]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2023.12.14-22.01.36:893][829]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-22.01.36:957][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-22.01.37:001][829]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-22.01.37:002][829]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHand500A82FB4BAC848DA3003C870DF86A54.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-22.01.37:014][829]LogFileHelpers: InternalPromptForCheckoutAndSave took 121 ms (total: 3.77 sec)
+[2023.12.14-22.01.37:016][829]AssetCheck: New page: Asset Save: W_CardHand
+[2023.12.14-22.01.37:016][829]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-22.02.25:460][188]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-22.02.25:528][188]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2023.12.14-22.02.26:461][275]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-22.02.26:528][275]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2023.12.14-22.02.26:833][293]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-22.02.26:902][293]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2023.12.14-22.02.55:267][594]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-22.02.55:342][594]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2023.12.14-22.02.56:008][649]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-22.02.56:081][649]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2023.12.14-22.02.56:281][655]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-22.02.56:351][655]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2023.12.14-22.02.56:495][656]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-22.02.56:564][656]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2023.12.14-22.02.56:717][657]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-22.02.56:785][657]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2023.12.14-22.02.57:780][754]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-22.02.57:849][754]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2023.12.14-22.04.00:548][305]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-22.04.00:601][305]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-22.04.00:642][305]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-22.04.00:643][305]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHand562F1C6945C147D0F337BAA8505717C8.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-22.04.00:654][305]LogFileHelpers: InternalPromptForCheckoutAndSave took 105 ms (total: 3.88 sec)
+[2023.12.14-22.04.00:656][305]AssetCheck: New page: Asset Save: W_CardHand
+[2023.12.14-22.04.00:657][305]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-22.04.00:956][331]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-22.04.01:018][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-22.04.01:076][331]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-22.04.01:077][331]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHand5C1FD35146B525724E536C8E9DDD13D1.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-22.04.01:086][331]LogFileHelpers: InternalPromptForCheckoutAndSave took 129 ms (total: 4.01 sec)
+[2023.12.14-22.04.01:088][331]AssetCheck: New page: Asset Save: W_CardHand
+[2023.12.14-22.04.01:088][331]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-22.04.04:404][474]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.14-22.04.04:421][474]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.14-22.04.04:421][474]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2023.12.14-22.04.04:431][474]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 9 ms (total: 162 ms)
+[2023.12.14-22.04.04:431][474]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.14-22.04.04:431][474]PIE: New page: PIE session: TopDownMap (Dec 14, 2023, 12:04:04 PM)
+[2023.12.14-22.04.04:431][474]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-22.04.04:439][474]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007686s)
+[2023.12.14-22.04.04:439][474]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.007750s)
+[2023.12.14-22.04.04:459][474]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2023.12.14-22.04.04:463][474]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-22.04.04:463][474]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-22.04.04:464][474]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.14-22.04.04:465][474]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.14-22.04.04:465][474]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.14-22.04.04:465][474]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.14-22.04.04:465][474]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.14-22.04.04:467][474]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.14-22.04.04:467][474]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 444 ms)
+[2023.12.14-22.04.04:467][474]LogPlayLevel: PIE: World Init took: (0.004032s)
+[2023.12.14-22.04.04:467][474]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2023.12.14-22.04.04:467][474]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.14-22.04.04:467][474]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.14-22.04.04:467][474]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.14-22.04.04:467][474]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.14-22.04.04:467][474]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.14-22.04.04:467][474]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.14-22.04.04:467][474]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.14-22.04.04:467][474]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.14-22.04.04:468][474]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.14-22.04.04:468][474]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.14-22.04.04:468][474]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.14-22.04.04:470][474]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.14-22.04.04:505][474]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (3- Arctis 7 Chat)
+[2023.12.14-22.04.04:505][474]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.14-22.04.04:505][474]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.14-22.04.04:505][474]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.14-22.04.04:507][474]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2023.12.14-22.04.04:507][474]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2023.12.14-22.04.04:509][474]LogInit: FAudioDevice initialized with ID 23.
+[2023.12.14-22.04.04:509][474]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2023.12.14-22.04.04:509][474]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2023.12.14-22.04.04:509][474]LogAudio: Display: Audio Device (ID: 23) registered with world 'TopDownMap'.
+[2023.12.14-22.04.04:509][474]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2023.12.14-22.04.04:513][474]LogLoad: Game class is 'BP_CardGameMode_C'
+[2023.12.14-22.04.04:517][474]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.14-17.04.04
+[2023.12.14-22.04.04:517][474]LogWorld: Bringing up level for play took: 0.004021
+[2023.12.14-22.04.04:520][474]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2023.12.14-22.04.04:523][474]PIE: Server logged in
+[2023.12.14-22.04.04:524][474]PIE: Play in editor total start time 0.103 seconds.
+[2023.12.14-22.04.15:224][237]LogViewport: Scene viewport resized to 1311x910, mode Windowed.
+[2023.12.14-22.04.15:260][238]LogViewport: Scene viewport resized to 1327x910, mode Windowed.
+[2023.12.14-22.04.15:348][239]LogViewport: Scene viewport resized to 1355x910, mode Windowed.
+[2023.12.14-22.04.15:422][240]LogViewport: Scene viewport resized to 1384x910, mode Windowed.
+[2023.12.14-22.04.15:506][241]LogViewport: Scene viewport resized to 1442x910, mode Windowed.
+[2023.12.14-22.04.15:587][242]LogViewport: Scene viewport resized to 1481x910, mode Windowed.
+[2023.12.14-22.04.15:684][243]LogViewport: Scene viewport resized to 1524x910, mode Windowed.
+[2023.12.14-22.04.15:766][244]LogViewport: Scene viewport resized to 1569x910, mode Windowed.
+[2023.12.14-22.04.15:838][245]LogViewport: Scene viewport resized to 1603x910, mode Windowed.
+[2023.12.14-22.04.15:933][246]LogViewport: Scene viewport resized to 1641x910, mode Windowed.
+[2023.12.14-22.04.15:996][247]LogViewport: Scene viewport resized to 1654x910, mode Windowed.
+[2023.12.14-22.04.16:361][277]LogViewport: Scene viewport resized to 1651x910, mode Windowed.
+[2023.12.14-22.04.16:395][278]LogViewport: Scene viewport resized to 1643x910, mode Windowed.
+[2023.12.14-22.04.16:488][279]LogViewport: Scene viewport resized to 1616x910, mode Windowed.
+[2023.12.14-22.04.16:537][280]LogViewport: Scene viewport resized to 1614x910, mode Windowed.
+[2023.12.14-22.04.16:594][281]LogViewport: Scene viewport resized to 1612x910, mode Windowed.
+[2023.12.14-22.04.16:675][285]LogViewport: Scene viewport resized to 1611x910, mode Windowed.
+[2023.12.14-22.04.16:709][286]LogViewport: Scene viewport resized to 1609x910, mode Windowed.
+[2023.12.14-22.04.16:851][296]LogViewport: Scene viewport resized to 1608x910, mode Windowed.
+[2023.12.14-22.04.35:108][247]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-22.04.35:108][247]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-22.04.35:108][247]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.14-22.04.35:109][247]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-22.04.35:109][247]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.14-22.04.35:117][247]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.14-22.04.35:126][247]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-22.04.35:155][247]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.14-22.04.35:156][247]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2023.12.14-22.04.35:156][247]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.12.14-22.04.35:158][247]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.12.14-22.04.35:163][247]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-22.04.35:169][247]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2023.12.14-22.04.35:300][248]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2023.12.14-22.04.36:423][321]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.14-22.04.36:438][321]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.14-22.04.36:438][321]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2023.12.14-22.04.36:446][321]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 7 ms (total: 170 ms)
+[2023.12.14-22.04.36:446][321]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.14-22.04.36:446][321]PIE: New page: PIE session: TopDownMap (Dec 14, 2023, 12:04:36 PM)
+[2023.12.14-22.04.36:446][321]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-22.04.36:454][321]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007693s)
+[2023.12.14-22.04.36:454][321]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.007761s)
+[2023.12.14-22.04.36:478][321]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.12.14-22.04.36:480][321]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-22.04.36:480][321]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-22.04.36:481][321]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.14-22.04.36:481][321]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.14-22.04.36:481][321]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.14-22.04.36:482][321]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.14-22.04.36:482][321]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.14-22.04.36:483][321]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.14-22.04.36:483][321]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 445 ms)
+[2023.12.14-22.04.36:483][321]LogPlayLevel: PIE: World Init took: (0.003411s)
+[2023.12.14-22.04.36:483][321]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2023.12.14-22.04.36:483][321]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.14-22.04.36:483][321]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.14-22.04.36:483][321]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.14-22.04.36:484][321]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.14-22.04.36:484][321]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.14-22.04.36:484][321]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.14-22.04.36:484][321]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.14-22.04.36:484][321]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.14-22.04.36:484][321]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.14-22.04.36:484][321]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.14-22.04.36:484][321]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.14-22.04.36:487][321]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.14-22.04.36:519][321]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (3- Arctis 7 Chat)
+[2023.12.14-22.04.36:519][321]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.14-22.04.36:519][321]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.14-22.04.36:519][321]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.14-22.04.36:520][321]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2023.12.14-22.04.36:520][321]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2023.12.14-22.04.36:522][321]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2023.12.14-22.04.36:522][321]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2023.12.14-22.04.36:522][321]LogInit: FAudioDevice initialized with ID 24.
+[2023.12.14-22.04.36:522][321]LogAudio: Display: Audio Device (ID: 24) registered with world 'TopDownMap'.
+[2023.12.14-22.04.36:522][321]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2023.12.14-22.04.36:526][321]LogLoad: Game class is 'BP_CardGameMode_C'
+[2023.12.14-22.04.36:530][321]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.14-17.04.36
+[2023.12.14-22.04.36:530][321]LogWorld: Bringing up level for play took: 0.003648
+[2023.12.14-22.04.36:533][321]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2023.12.14-22.04.36:536][321]PIE: Server logged in
+[2023.12.14-22.04.36:537][321]PIE: Play in editor total start time 0.099 seconds.
+[2023.12.14-22.05.03:958][253]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-22.05.03:958][253]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-22.05.03:958][253]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.14-22.05.03:958][253]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-22.05.03:959][253]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.14-22.05.03:967][253]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.14-22.05.03:975][253]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-22.05.04:003][253]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-22.05.04:004][253]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2023.12.14-22.05.04:004][253]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2023.12.14-22.05.04:006][253]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2023.12.14-22.05.04:015][253]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2023.12.14-22.05.04:139][254]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2023.12.14-22.07.51:964][506]LogEditorTransaction: Undo Move Nodes
+[2023.12.14-22.07.53:910][665]LogEditorTransaction: Undo Move Nodes
+[2023.12.14-22.07.54:413][713]LogEditorTransaction: Undo Delete current selection
+[2023.12.14-22.08.22:867][558]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-22.08.22:884][558]LogBlueprint: Error: [AssetLog] E:\UnrealCardGame\UnrealCardGame\CardGameSystem\Content\CardSystem\W_CardHand.uasset: [Compiler] The current value (2.000000) of the ' B ' pin is invalid: Expected a valid number for an integer property
+[2023.12.14-22.08.22:942][558]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2023.12.14-22.08.23:696][621]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-22.08.23:759][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-22.08.23:798][621]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-22.08.23:799][621]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHand1011B1AE40058E35574B208CCB1F99CE.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-22.08.23:813][621]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 4.12 sec)
+[2023.12.14-22.08.23:814][621]AssetCheck: New page: Asset Save: W_CardHand
+[2023.12.14-22.08.23:814][621]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-22.08.52:133][758]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-22.08.52:149][758]LogBlueprint: Error: [AssetLog] E:\UnrealCardGame\UnrealCardGame\CardGameSystem\Content\CardSystem\W_CardHand.uasset: [Compiler] The current value (2.000000) of the ' B ' pin is invalid: Expected a valid number for an integer property
+[2023.12.14-22.08.52:205][758]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2023.12.14-22.10.18:386][ 65]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-22.10.18:457][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2023.12.14-22.10.19:765][154]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-22.10.19:823][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-22.10.19:865][154]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-22.10.19:866][154]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHandE275E587427B56067E412DB1F0081D01.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-22.10.19:880][154]LogFileHelpers: InternalPromptForCheckoutAndSave took 114 ms (total: 4.24 sec)
+[2023.12.14-22.10.19:881][154]AssetCheck: New page: Asset Save: W_CardHand
+[2023.12.14-22.10.19:881][154]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-22.10.22:164][307]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.14-22.10.22:177][307]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.14-22.10.22:177][307]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2023.12.14-22.10.22:184][307]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 7 ms (total: 177 ms)
+[2023.12.14-22.10.22:184][307]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.14-22.10.22:184][307]PIE: New page: PIE session: TopDownMap (Dec 14, 2023, 12:10:22 PM)
+[2023.12.14-22.10.22:184][307]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-22.10.22:192][307]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007269s)
+[2023.12.14-22.10.22:192][307]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.007320s)
+[2023.12.14-22.10.22:212][307]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2023.12.14-22.10.22:215][307]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-22.10.22:216][307]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-22.10.22:216][307]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.14-22.10.22:217][307]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.14-22.10.22:217][307]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.14-22.10.22:217][307]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.14-22.10.22:217][307]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.14-22.10.22:219][307]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.14-22.10.22:219][307]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 447 ms)
+[2023.12.14-22.10.22:219][307]LogPlayLevel: PIE: World Init took: (0.003651s)
+[2023.12.14-22.10.22:219][307]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2023.12.14-22.10.22:219][307]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.14-22.10.22:219][307]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.14-22.10.22:219][307]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.14-22.10.22:219][307]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.14-22.10.22:219][307]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.14-22.10.22:219][307]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.14-22.10.22:219][307]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.14-22.10.22:219][307]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.14-22.10.22:220][307]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.14-22.10.22:220][307]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.14-22.10.22:220][307]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.14-22.10.22:223][307]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.14-22.10.22:254][307]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (3- Arctis 7 Chat)
+[2023.12.14-22.10.22:255][307]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.14-22.10.22:255][307]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.14-22.10.22:255][307]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.14-22.10.22:256][307]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2023.12.14-22.10.22:256][307]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2023.12.14-22.10.22:259][307]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2023.12.14-22.10.22:259][307]LogInit: FAudioDevice initialized with ID 25.
+[2023.12.14-22.10.22:259][307]LogAudio: Display: Audio Device (ID: 25) registered with world 'TopDownMap'.
+[2023.12.14-22.10.22:259][307]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2023.12.14-22.10.22:259][307]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2023.12.14-22.10.22:262][307]LogLoad: Game class is 'BP_CardGameMode_C'
+[2023.12.14-22.10.22:266][307]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.14-17.10.22
+[2023.12.14-22.10.22:266][307]LogWorld: Bringing up level for play took: 0.003370
+[2023.12.14-22.10.22:269][307]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2023.12.14-22.10.22:272][307]PIE: Server logged in
+[2023.12.14-22.10.22:273][307]PIE: Play in editor total start time 0.096 seconds.
+[2023.12.14-22.10.35:828][262]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-22.10.35:828][262]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-22.10.35:828][262]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.14-22.10.35:829][262]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-22.10.35:829][262]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.14-22.10.35:832][262]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.14-22.10.35:841][262]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-22.10.35:865][262]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.14-22.10.35:865][262]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2023.12.14-22.10.35:865][262]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2023.12.14-22.10.35:867][262]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2023.12.14-22.10.35:873][262]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-22.10.35:877][262]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2023.12.14-22.10.36:004][263]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2023.12.14-22.10.37:514][366]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.14-22.10.37:528][366]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.14-22.10.37:528][366]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2023.12.14-22.10.37:535][366]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 6 ms (total: 184 ms)
+[2023.12.14-22.10.37:535][366]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.14-22.10.37:535][366]PIE: New page: PIE session: TopDownMap (Dec 14, 2023, 12:10:37 PM)
+[2023.12.14-22.10.37:535][366]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-22.10.37:543][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007515s)
+[2023.12.14-22.10.37:543][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.007562s)
+[2023.12.14-22.10.37:564][366]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2023.12.14-22.10.37:566][366]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-22.10.37:566][366]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-22.10.37:567][366]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.14-22.10.37:568][366]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.14-22.10.37:568][366]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.14-22.10.37:568][366]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.14-22.10.37:568][366]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.14-22.10.37:569][366]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.14-22.10.37:569][366]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 449 ms)
+[2023.12.14-22.10.37:569][366]LogPlayLevel: PIE: World Init took: (0.003260s)
+[2023.12.14-22.10.37:569][366]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2023.12.14-22.10.37:569][366]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.14-22.10.37:570][366]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.14-22.10.37:570][366]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.14-22.10.37:570][366]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.14-22.10.37:570][366]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.14-22.10.37:570][366]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.14-22.10.37:570][366]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.14-22.10.37:570][366]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.14-22.10.37:570][366]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.14-22.10.37:570][366]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.14-22.10.37:570][366]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.14-22.10.37:573][366]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.14-22.10.37:605][366]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (3- Arctis 7 Chat)
+[2023.12.14-22.10.37:606][366]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.14-22.10.37:606][366]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.14-22.10.37:606][366]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.14-22.10.37:607][366]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2023.12.14-22.10.37:607][366]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2023.12.14-22.10.37:609][366]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2023.12.14-22.10.37:609][366]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2023.12.14-22.10.37:609][366]LogInit: FAudioDevice initialized with ID 26.
+[2023.12.14-22.10.37:609][366]LogAudio: Display: Audio Device (ID: 26) registered with world 'TopDownMap'.
+[2023.12.14-22.10.37:609][366]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2023.12.14-22.10.37:613][366]LogLoad: Game class is 'BP_CardGameMode_C'
+[2023.12.14-22.10.37:616][366]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.14-17.10.37
+[2023.12.14-22.10.37:616][366]LogWorld: Bringing up level for play took: 0.003311
+[2023.12.14-22.10.37:619][366]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2023.12.14-22.10.37:622][366]PIE: Server logged in
+[2023.12.14-22.10.37:623][366]PIE: Play in editor total start time 0.095 seconds.
+[2023.12.14-22.10.46:427][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-22.10.46:427][860]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-22.10.46:427][860]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.14-22.10.46:428][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-22.10.46:428][860]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.14-22.10.46:432][860]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.14-22.10.46:440][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-22.10.46:467][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-22.10.46:468][860]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2023.12.14-22.10.46:468][860]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2023.12.14-22.10.46:470][860]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2023.12.14-22.10.46:480][860]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2023.12.14-22.10.46:603][861]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2023.12.14-22.11.47:427][918]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2023.12.14-22.11.47:432][918]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDown/Maps/TopDownMap' took 0.036
+[2023.12.14-22.11.47:432][918]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/CardSystem/W_CardHand] ([2] browsable assets)...
+[2023.12.14-22.11.47:436][918]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand]
+[2023.12.14-22.11.47:436][918]OBJ SavePackage: Finished generating thumbnails for package [/Game/CardSystem/W_CardHand]
+[2023.12.14-22.11.47:436][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/Autosaves/Game/CardSystem/W_CardHand_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2023.12.14-22.11.47:478][918]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CardSystem/W_CardHand_Auto6
+[2023.12.14-22.11.47:478][918]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHand_Auto6AC04FBC34051B5FF5BA0F1926A301994.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/Autosaves/Game/CardSystem/W_CardHand_Auto6.uasset'
+[2023.12.14-22.11.47:479][918]LogFileHelpers: Auto-saving content packages took 0.048
+[2023.12.14-22.24.45:608][465]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2023.12.14-22.24.45:613][465]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDown/Maps/TopDownMap' took 0.034
+[2023.12.14-22.24.45:613][465]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/CardSystem/W_CardHand] ([2] browsable assets)...
+[2023.12.14-22.24.45:617][465]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand]
+[2023.12.14-22.24.45:617][465]OBJ SavePackage: Finished generating thumbnails for package [/Game/CardSystem/W_CardHand]
+[2023.12.14-22.24.45:617][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/Autosaves/Game/CardSystem/W_CardHand_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2023.12.14-22.24.45:658][465]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CardSystem/W_CardHand_Auto7
+[2023.12.14-22.24.45:658][465]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHand_Auto706F16AFE43FFDFD4D86A998DA77C65DC.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/Autosaves/Game/CardSystem/W_CardHand_Auto7.uasset'
+[2023.12.14-22.24.45:659][465]LogFileHelpers: Auto-saving content packages took 0.046
+[2023.12.14-22.24.57:543][714]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-22.24.57:612][714]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2023.12.14-22.25.02:713][218]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-22.25.02:782][218]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2023.12.14-22.25.03:367][247]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-22.25.03:432][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-22.25.03:480][247]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-22.25.03:481][247]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHandF2FDCDBF40BC16414EAB549E26325975.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-22.25.03:491][247]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 4.36 sec)
+[2023.12.14-22.25.03:492][247]AssetCheck: New page: Asset Save: W_CardHand
+[2023.12.14-22.25.03:492][247]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-22.25.23:602][645]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-22.25.23:664][645]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-22.25.23:706][645]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-22.25.23:707][645]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHandEBC6282B4FF0B45941F75BB70B96EDEE.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-22.25.23:718][645]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 4.48 sec)
+[2023.12.14-22.25.23:720][645]AssetCheck: New page: Asset Save: W_CardHand
+[2023.12.14-22.25.23:720][645]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-22.25.28:835][875]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.14-22.25.28:848][875]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.14-22.25.28:848][875]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2023.12.14-22.25.28:855][875]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 6 ms (total: 191 ms)
+[2023.12.14-22.25.28:855][875]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.12.14-22.25.28:858][875]LogPlayLevel: [PlayLevel] Compiling W_CardHand before play...
+[2023.12.14-22.25.28:951][875]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2023.12.14-22.25.28:956][875]LogPlayLevel: PlayLevel: Blueprint regeneration took 100 ms (1 blueprints)
+[2023.12.14-22.25.28:956][875]PIE: New page: PIE session: TopDownMap (Dec 14, 2023, 12:25:28 PM)
+[2023.12.14-22.25.28:956][875]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-22.25.28:963][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007281s)
+[2023.12.14-22.25.28:963][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.007329s)
+[2023.12.14-22.25.28:987][875]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2023.12.14-22.25.28:989][875]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-22.25.28:989][875]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-22.25.28:990][875]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.14-22.25.28:990][875]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.14-22.25.28:990][875]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.14-22.25.28:990][875]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.14-22.25.28:990][875]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.14-22.25.28:992][875]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.14-22.25.28:992][875]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 451 ms)
+[2023.12.14-22.25.28:992][875]LogPlayLevel: PIE: World Init took: (0.003452s)
+[2023.12.14-22.25.28:992][875]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2023.12.14-22.25.28:992][875]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.14-22.25.28:992][875]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.14-22.25.28:992][875]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.14-22.25.28:992][875]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.14-22.25.28:992][875]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.14-22.25.28:992][875]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.14-22.25.28:992][875]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.14-22.25.28:992][875]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.14-22.25.28:993][875]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.14-22.25.28:993][875]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.14-22.25.28:993][875]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.14-22.25.28:995][875]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.14-22.25.29:042][875]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (3- Arctis 7 Chat)
+[2023.12.14-22.25.29:042][875]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.14-22.25.29:042][875]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.14-22.25.29:042][875]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.14-22.25.29:044][875]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2023.12.14-22.25.29:044][875]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2023.12.14-22.25.29:046][875]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2023.12.14-22.25.29:046][875]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2023.12.14-22.25.29:046][875]LogInit: FAudioDevice initialized with ID 27.
+[2023.12.14-22.25.29:046][875]LogAudio: Display: Audio Device (ID: 27) registered with world 'TopDownMap'.
+[2023.12.14-22.25.29:046][875]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 27
+[2023.12.14-22.25.29:050][875]LogLoad: Game class is 'BP_CardGameMode_C'
+[2023.12.14-22.25.29:053][875]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.14-17.25.29
+[2023.12.14-22.25.29:053][875]LogWorld: Bringing up level for play took: 0.003295
+[2023.12.14-22.25.29:056][875]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2023.12.14-22.25.29:059][875]PIE: Server logged in
+[2023.12.14-22.25.29:060][875]PIE: Play in editor total start time 0.211 seconds.
+[2023.12.14-22.25.38:227][519]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-22.25.38:228][519]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-22.25.38:228][519]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.14-22.25.38:228][519]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-22.25.38:228][519]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.14-22.25.38:232][519]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.14-22.25.38:240][519]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-22.25.38:264][519]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-22.25.38:264][519]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 27
+[2023.12.14-22.25.38:264][519]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2023.12.14-22.25.38:266][519]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2023.12.14-22.25.38:275][519]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.12.14-22.25.38:395][520]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2023.12.14-22.30.11:693][317]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-22.30.11:765][317]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2023.12.14-22.30.12:323][366]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-22.30.12:395][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-22.30.12:436][366]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-22.30.12:437][366]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHandB0F5423B40395E0F645AA5A78B422D55.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-22.30.12:448][366]LogFileHelpers: InternalPromptForCheckoutAndSave took 125 ms (total: 4.60 sec)
+[2023.12.14-22.30.12:450][366]AssetCheck: New page: Asset Save: W_CardHand
+[2023.12.14-22.30.12:450][366]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-22.30.14:589][514]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.14-22.30.14:602][514]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.14-22.30.14:603][514]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2023.12.14-22.30.14:609][514]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 6 ms (total: 197 ms)
+[2023.12.14-22.30.14:609][514]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.14-22.30.14:610][514]PIE: New page: PIE session: TopDownMap (Dec 14, 2023, 12:30:14 PM)
+[2023.12.14-22.30.14:610][514]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-22.30.14:617][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006795s)
+[2023.12.14-22.30.14:617][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.006840s)
+[2023.12.14-22.30.14:638][514]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.12.14-22.30.14:641][514]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-22.30.14:641][514]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-22.30.14:642][514]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.14-22.30.14:643][514]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.14-22.30.14:643][514]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.14-22.30.14:643][514]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.14-22.30.14:643][514]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.14-22.30.14:644][514]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.14-22.30.14:644][514]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 453 ms)
+[2023.12.14-22.30.14:645][514]LogPlayLevel: PIE: World Init took: (0.003513s)
+[2023.12.14-22.30.14:645][514]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2023.12.14-22.30.14:645][514]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.14-22.30.14:645][514]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.14-22.30.14:645][514]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.14-22.30.14:645][514]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.14-22.30.14:645][514]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.14-22.30.14:645][514]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.14-22.30.14:645][514]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.14-22.30.14:645][514]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.14-22.30.14:646][514]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.14-22.30.14:646][514]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.14-22.30.14:646][514]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.14-22.30.14:648][514]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.14-22.30.14:681][514]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (3- Arctis 7 Chat)
+[2023.12.14-22.30.14:681][514]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.14-22.30.14:681][514]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.14-22.30.14:681][514]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.14-22.30.14:683][514]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2023.12.14-22.30.14:683][514]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2023.12.14-22.30.14:685][514]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2023.12.14-22.30.14:685][514]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2023.12.14-22.30.14:685][514]LogInit: FAudioDevice initialized with ID 28.
+[2023.12.14-22.30.14:685][514]LogAudio: Display: Audio Device (ID: 28) registered with world 'TopDownMap'.
+[2023.12.14-22.30.14:685][514]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 28
+[2023.12.14-22.30.14:688][514]LogLoad: Game class is 'BP_CardGameMode_C'
+[2023.12.14-22.30.14:692][514]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.14-17.30.14
+[2023.12.14-22.30.14:692][514]LogWorld: Bringing up level for play took: 0.003702
+[2023.12.14-22.30.14:695][514]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2023.12.14-22.30.14:698][514]PIE: Server logged in
+[2023.12.14-22.30.14:699][514]PIE: Play in editor total start time 0.096 seconds.
+[2023.12.14-22.30.31:196][676]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-22.30.31:196][676]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-22.30.31:196][676]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.14-22.30.31:197][676]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-22.30.31:197][676]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.14-22.30.31:201][676]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.14-22.30.31:209][676]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-22.30.31:235][676]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.14-22.30.31:235][676]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 28
+[2023.12.14-22.30.31:235][676]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2023.12.14-22.30.31:237][676]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2023.12.14-22.30.31:243][676]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-22.30.31:247][676]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.12.14-22.30.31:368][677]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2023.12.14-22.30.32:136][724]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.14-22.30.32:150][724]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.14-22.30.32:150][724]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2023.12.14-22.30.32:158][724]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 7 ms (total: 205 ms)
+[2023.12.14-22.30.32:158][724]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.14-22.30.32:158][724]PIE: New page: PIE session: TopDownMap (Dec 14, 2023, 12:30:32 PM)
+[2023.12.14-22.30.32:158][724]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-22.30.32:165][724]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006815s)
+[2023.12.14-22.30.32:165][724]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.006859s)
+[2023.12.14-22.30.32:189][724]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.12.14-22.30.32:191][724]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-22.30.32:191][724]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-22.30.32:192][724]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.14-22.30.32:192][724]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.14-22.30.32:192][724]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.14-22.30.32:192][724]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.14-22.30.32:192][724]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.14-22.30.32:194][724]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.14-22.30.32:194][724]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 454 ms)
+[2023.12.14-22.30.32:194][724]LogPlayLevel: PIE: World Init took: (0.003365s)
+[2023.12.14-22.30.32:194][724]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2023.12.14-22.30.32:194][724]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.14-22.30.32:194][724]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.14-22.30.32:194][724]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.14-22.30.32:194][724]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.14-22.30.32:194][724]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.14-22.30.32:194][724]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.14-22.30.32:194][724]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.14-22.30.32:194][724]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.14-22.30.32:195][724]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.14-22.30.32:195][724]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.14-22.30.32:195][724]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.14-22.30.32:198][724]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.14-22.30.32:228][724]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (3- Arctis 7 Chat)
+[2023.12.14-22.30.32:229][724]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.14-22.30.32:229][724]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.14-22.30.32:229][724]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.14-22.30.32:230][724]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2023.12.14-22.30.32:230][724]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2023.12.14-22.30.32:232][724]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2023.12.14-22.30.32:232][724]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2023.12.14-22.30.32:232][724]LogInit: FAudioDevice initialized with ID 29.
+[2023.12.14-22.30.32:232][724]LogAudio: Display: Audio Device (ID: 29) registered with world 'TopDownMap'.
+[2023.12.14-22.30.32:232][724]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 29
+[2023.12.14-22.30.32:236][724]LogLoad: Game class is 'BP_CardGameMode_C'
+[2023.12.14-22.30.32:239][724]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.14-17.30.32
+[2023.12.14-22.30.32:239][724]LogWorld: Bringing up level for play took: 0.003457
+[2023.12.14-22.30.32:242][724]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2023.12.14-22.30.32:245][724]PIE: Server logged in
+[2023.12.14-22.30.32:246][724]PIE: Play in editor total start time 0.096 seconds.
+[2023.12.14-22.31.04:958][939]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-22.31.04:958][939]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-22.31.04:959][939]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.14-22.31.04:959][939]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-22.31.04:959][939]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.14-22.31.04:966][939]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.14-22.31.04:975][939]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-22.31.04:998][939]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-22.31.04:999][939]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 29
+[2023.12.14-22.31.04:999][939]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2023.12.14-22.31.05:001][939]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2023.12.14-22.31.05:014][939]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.12.14-22.31.05:136][940]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2023.12.14-22.31.15:763][942]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-22.31.15:832][942]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2023.12.14-22.31.16:448][971]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-22.31.16:504][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-22.31.16:548][971]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-22.31.16:550][971]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHand27BD04DC409B61A022AB13B514B0045F.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-22.31.16:564][971]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 4.72 sec)
+[2023.12.14-22.31.16:566][971]AssetCheck: New page: Asset Save: W_CardHand
+[2023.12.14-22.31.16:566][971]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-22.31.18:977][139]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.14-22.31.18:990][139]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.14-22.31.18:990][139]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2023.12.14-22.31.18:997][139]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 7 ms (total: 212 ms)
+[2023.12.14-22.31.18:998][139]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.14-22.31.18:998][139]PIE: New page: PIE session: TopDownMap (Dec 14, 2023, 12:31:18 PM)
+[2023.12.14-22.31.18:998][139]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-22.31.19:005][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007326s)
+[2023.12.14-22.31.19:005][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.007379s)
+[2023.12.14-22.31.19:029][139]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.12.14-22.31.19:032][139]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-22.31.19:032][139]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-22.31.19:033][139]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.14-22.31.19:034][139]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.14-22.31.19:034][139]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.14-22.31.19:034][139]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.14-22.31.19:034][139]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.14-22.31.19:035][139]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.14-22.31.19:035][139]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 456 ms)
+[2023.12.14-22.31.19:035][139]LogPlayLevel: PIE: World Init took: (0.003358s)
+[2023.12.14-22.31.19:036][139]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2023.12.14-22.31.19:036][139]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.14-22.31.19:036][139]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.14-22.31.19:036][139]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.14-22.31.19:036][139]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.14-22.31.19:036][139]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.14-22.31.19:036][139]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.14-22.31.19:036][139]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.14-22.31.19:036][139]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.14-22.31.19:036][139]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.14-22.31.19:036][139]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.14-22.31.19:036][139]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.14-22.31.19:039][139]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.14-22.31.19:070][139]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (3- Arctis 7 Chat)
+[2023.12.14-22.31.19:070][139]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.14-22.31.19:070][139]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.14-22.31.19:070][139]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.14-22.31.19:072][139]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2023.12.14-22.31.19:072][139]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=30
+[2023.12.14-22.31.19:074][139]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2023.12.14-22.31.19:074][139]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2023.12.14-22.31.19:074][139]LogInit: FAudioDevice initialized with ID 30.
+[2023.12.14-22.31.19:074][139]LogAudio: Display: Audio Device (ID: 30) registered with world 'TopDownMap'.
+[2023.12.14-22.31.19:074][139]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 30
+[2023.12.14-22.31.19:078][139]LogLoad: Game class is 'BP_CardGameMode_C'
+[2023.12.14-22.31.19:081][139]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.14-17.31.19
+[2023.12.14-22.31.19:081][139]LogWorld: Bringing up level for play took: 0.003262
+[2023.12.14-22.31.19:084][139]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2023.12.14-22.31.19:087][139]PIE: Server logged in
+[2023.12.14-22.31.19:088][139]PIE: Play in editor total start time 0.098 seconds.
+[2023.12.14-22.32.13:856][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-22.32.13:857][860]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-22.32.13:857][860]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.14-22.32.13:857][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-22.32.13:857][860]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.14-22.32.13:865][860]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.14-22.32.13:874][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-22.32.13:901][860]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.14-22.32.13:901][860]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 30
+[2023.12.14-22.32.13:901][860]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2023.12.14-22.32.13:903][860]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2023.12.14-22.32.13:910][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-22.32.13:914][860]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2023.12.14-22.32.14:054][861]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2023.12.14-22.32.20:161][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
