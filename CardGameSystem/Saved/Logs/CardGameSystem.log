@@ -1329,3 +1329,1029 @@ LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variab
 [2023.12.14-19.49.51:552][526]LogFileHelpers: InternalPromptForCheckoutAndSave took 189 ms
 [2023.12.14-19.49.51:554][526]AssetCheck: New page: Asset Save: TopDownMap
 [2023.12.14-19.49.51:554][526]LogContentValidation: Display: Validating /Script/Engine.World /Game/TopDown/Maps/TopDownMap.TopDownMap
+[2023.12.14-19.51.02:395][931]LogSlate: Took 0.000436 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.12.14-19.51.04:703][197]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-19.51.04:704][197]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-19.51.04:704][197]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-19.51.04:714][197]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-19.51.04:715][197]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-19.51.05:043][197]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2023.12.14-19.51.05:045][197]LogSlate: Took 0.001813 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.12.14-19.51.06:755][387]LogSlate: Window 'W_CardHand' being destroyed
+[2023.12.14-19.52.23:903][863]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/CardSystem/W_Card.W_Card
+[2023.12.14-19.52.23:904][863]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-19.52.23:904][863]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-19.52.23:912][863]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-19.52.23:912][863]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-19.52.39:387][601]LogSlate: Took 0.000283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.12.14-19.53.03:146][539]BlueprintLog: New page: Compile W_Card
+[2023.12.14-19.53.03:189][539]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2023.12.14-19.53.03:984][618]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-19.53.04:023][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_Card" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_Card.uasset" SILENT=true
+[2023.12.14-19.53.04:041][618]LogSavePackage: Moving output files for package: /Game/CardSystem/W_Card
+[2023.12.14-19.53.04:042][618]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_Card2C4E4E794C0079E33D55DE889DC3DFB2.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_Card.uasset'
+[2023.12.14-19.53.04:052][618]LogFileHelpers: InternalPromptForCheckoutAndSave took 67 ms (total: 257 ms)
+[2023.12.14-19.53.04:053][618]AssetCheck: New page: Asset Save: W_Card
+[2023.12.14-19.53.04:053][618]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_Card.W_Card
+[2023.12.14-19.53.46:116][548]LogEditorTransaction: Undo Delete current selection
+[2023.12.14-19.55.52:967][ 36]BlueprintLog: New page: Compile W_Card
+[2023.12.14-19.55.53:010][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2023.12.14-19.55.53:651][ 97]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-19.55.53:730][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_Card" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_Card.uasset" SILENT=true
+[2023.12.14-19.55.53:752][ 97]LogSavePackage: Moving output files for package: /Game/CardSystem/W_Card
+[2023.12.14-19.55.53:753][ 97]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardD88A2AFA439A5592D870259542D8450E.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_Card.uasset'
+[2023.12.14-19.55.53:762][ 97]LogFileHelpers: InternalPromptForCheckoutAndSave took 111 ms (total: 369 ms)
+[2023.12.14-19.55.53:764][ 97]AssetCheck: New page: Asset Save: W_Card
+[2023.12.14-19.55.53:764][ 97]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_Card.W_Card
+[2023.12.14-19.55.58:075][462]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-19.55.58:106][462]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2023.12.14-19.55.59:012][559]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-19.55.59:050][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-19.55.59:063][559]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-19.55.59:064][559]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHand25E4EAEE4F296063B3DBE2BD215D81F0.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-19.55.59:073][559]LogFileHelpers: InternalPromptForCheckoutAndSave took 61 ms (total: 430 ms)
+[2023.12.14-19.55.59:074][559]AssetCheck: New page: Asset Save: W_CardHand
+[2023.12.14-19.55.59:074][559]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-19.56.02:075][817]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.14-19.56.02:089][817]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.14-19.56.02:089][817]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2023.12.14-19.56.02:096][817]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 7 ms (total: 20 ms)
+[2023.12.14-19.56.02:096][817]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.14-19.56.02:096][817]PIE: New page: PIE session: TopDownMap (Dec 14, 2023, 9:56:02 AM)
+[2023.12.14-19.56.02:096][817]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-19.56.02:104][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007272s)
+[2023.12.14-19.56.02:104][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.007343s)
+[2023.12.14-19.56.02:126][817]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2023.12.14-19.56.02:128][817]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-19.56.02:128][817]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-19.56.02:129][817]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.14-19.56.02:129][817]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.14-19.56.02:129][817]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.14-19.56.02:129][817]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.14-19.56.02:129][817]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.14-19.56.02:131][817]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.14-19.56.02:131][817]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 409 ms)
+[2023.12.14-19.56.02:131][817]LogPlayLevel: PIE: World Init took: (0.003243s)
+[2023.12.14-19.56.02:131][817]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.12.14-19.56.02:131][817]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.14-19.56.02:131][817]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.14-19.56.02:131][817]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.14-19.56.02:131][817]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.14-19.56.02:131][817]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.14-19.56.02:131][817]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.14-19.56.02:131][817]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.14-19.56.02:131][817]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.14-19.56.02:132][817]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.14-19.56.02:132][817]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.14-19.56.02:132][817]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.14-19.56.02:134][817]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.14-19.56.02:167][817]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (3- Arctis 7 Chat)
+[2023.12.14-19.56.02:167][817]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.14-19.56.02:167][817]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.14-19.56.02:167][817]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.14-19.56.02:168][817]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.12.14-19.56.02:168][817]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.12.14-19.56.02:170][817]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.12.14-19.56.02:170][817]LogInit: FAudioDevice initialized with ID 4.
+[2023.12.14-19.56.02:170][817]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.12.14-19.56.02:170][817]LogAudio: Display: Audio Device (ID: 4) registered with world 'TopDownMap'.
+[2023.12.14-19.56.02:170][817]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2023.12.14-19.56.02:174][817]LogLoad: Game class is 'BP_CardGameMode_C'
+[2023.12.14-19.56.02:177][817]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.14-14.56.02
+[2023.12.14-19.56.02:177][817]LogWorld: Bringing up level for play took: 0.003119
+[2023.12.14-19.56.02:180][817]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2023.12.14-19.56.02:183][817]PIE: Server logged in
+[2023.12.14-19.56.02:184][817]PIE: Play in editor total start time 0.096 seconds.
+[2023.12.14-19.56.06:182][ 81]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-19.56.06:182][ 81]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-19.56.06:182][ 81]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.14-19.56.06:183][ 81]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-19.56.06:183][ 81]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.14-19.56.06:186][ 81]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.14-19.56.06:193][ 81]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-19.56.06:216][ 81]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-19.56.06:216][ 81]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2023.12.14-19.56.06:216][ 81]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.12.14-19.56.06:218][ 81]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.12.14-19.56.06:228][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2023.12.14-19.56.06:269][ 82]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2023.12.14-20.00.03:661][456]BlueprintLog: New page: Compile W_Card
+[2023.12.14-20.00.03:703][456]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.12.14-20.00.04:677][547]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.00.04:746][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_Card" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_Card.uasset" SILENT=true
+[2023.12.14-20.00.04:766][547]LogSavePackage: Moving output files for package: /Game/CardSystem/W_Card
+[2023.12.14-20.00.04:767][547]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_Card775D863B4FAC256EC051A6BC496D8577.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_Card.uasset'
+[2023.12.14-20.00.04:775][547]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 527 ms)
+[2023.12.14-20.00.04:777][547]AssetCheck: New page: Asset Save: W_Card
+[2023.12.14-20.00.04:777][547]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_Card.W_Card
+[2023.12.14-20.00.45:978][461]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-20.00.46:020][461]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2023.12.14-20.00.46:829][545]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.00.46:895][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-20.00.46:918][545]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-20.00.46:920][545]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHandEDB0A06A4B49E9EC57CF29846B26392D.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-20.00.46:932][545]LogFileHelpers: InternalPromptForCheckoutAndSave took 103 ms (total: 631 ms)
+[2023.12.14-20.00.46:934][545]AssetCheck: New page: Asset Save: W_CardHand
+[2023.12.14-20.00.46:934][545]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-20.00.51:028][929]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.14-20.00.51:042][929]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.14-20.00.51:042][929]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2023.12.14-20.00.51:049][929]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 6 ms (total: 26 ms)
+[2023.12.14-20.00.51:049][929]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.14-20.00.51:049][929]PIE: New page: PIE session: TopDownMap (Dec 14, 2023, 10:00:51 AM)
+[2023.12.14-20.00.51:050][929]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-20.00.51:057][929]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006949s)
+[2023.12.14-20.00.51:057][929]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.007001s)
+[2023.12.14-20.00.51:074][929]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2023.12.14-20.00.51:076][929]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-20.00.51:076][929]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-20.00.51:077][929]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.14-20.00.51:077][929]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.14-20.00.51:077][929]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.14-20.00.51:077][929]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.14-20.00.51:078][929]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.14-20.00.51:079][929]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.14-20.00.51:079][929]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 411 ms)
+[2023.12.14-20.00.51:079][929]LogPlayLevel: PIE: World Init took: (0.003734s)
+[2023.12.14-20.00.51:080][929]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.12.14-20.00.51:080][929]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.14-20.00.51:080][929]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.14-20.00.51:080][929]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.14-20.00.51:080][929]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.14-20.00.51:080][929]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.14-20.00.51:080][929]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.14-20.00.51:080][929]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.14-20.00.51:080][929]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.14-20.00.51:081][929]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.14-20.00.51:081][929]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.14-20.00.51:081][929]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.14-20.00.51:083][929]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.14-20.00.51:115][929]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (3- Arctis 7 Chat)
+[2023.12.14-20.00.51:116][929]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.14-20.00.51:116][929]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.14-20.00.51:116][929]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.14-20.00.51:117][929]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.12.14-20.00.51:117][929]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.12.14-20.00.51:119][929]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.12.14-20.00.51:119][929]LogInit: FAudioDevice initialized with ID 5.
+[2023.12.14-20.00.51:119][929]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.12.14-20.00.51:119][929]LogAudio: Display: Audio Device (ID: 5) registered with world 'TopDownMap'.
+[2023.12.14-20.00.51:119][929]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2023.12.14-20.00.51:122][929]LogLoad: Game class is 'BP_CardGameMode_C'
+[2023.12.14-20.00.51:125][929]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.14-15.00.51
+[2023.12.14-20.00.51:126][929]LogWorld: Bringing up level for play took: 0.003241
+[2023.12.14-20.00.51:129][929]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2023.12.14-20.00.51:131][929]PIE: Server logged in
+[2023.12.14-20.00.51:132][929]PIE: Play in editor total start time 0.09 seconds.
+[2023.12.14-20.01.04:343][890]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-20.01.04:343][890]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-20.01.04:343][890]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.14-20.01.04:344][890]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-20.01.04:344][890]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.14-20.01.04:347][890]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.14-20.01.04:355][890]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-20.01.04:378][890]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.14-20.01.04:378][890]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2023.12.14-20.01.04:378][890]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.12.14-20.01.04:380][890]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.12.14-20.01.04:386][890]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-20.01.04:390][890]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.12.14-20.01.04:433][891]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2023.12.14-20.01.06:315][ 65]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/CardSystem/DT_Cards.DT_Cards
+[2023.12.14-20.01.09:270][390]LogSlate: Took 0.000311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.12.14-20.01.21:405][619]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.01.21:455][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/DT_Cards" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/DT_Cards.uasset" SILENT=true
+[2023.12.14-20.01.21:462][619]LogSavePackage: Moving output files for package: /Game/CardSystem/DT_Cards
+[2023.12.14-20.01.21:463][619]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/DT_Cards54653B504B0B57E747204AA06AAD2EB0.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/DT_Cards.uasset'
+[2023.12.14-20.01.21:471][619]LogFileHelpers: InternalPromptForCheckoutAndSave took 67 ms (total: 698 ms)
+[2023.12.14-20.01.21:472][619]AssetCheck: New page: Asset Save: DT_Cards
+[2023.12.14-20.01.21:472][619]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/CardSystem/DT_Cards.DT_Cards
+[2023.12.14-20.01.24:249][827]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.14-20.01.24:263][827]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.14-20.01.24:263][827]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2023.12.14-20.01.24:270][827]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 7 ms (total: 34 ms)
+[2023.12.14-20.01.24:270][827]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.14-20.01.24:270][827]PIE: New page: PIE session: TopDownMap (Dec 14, 2023, 10:01:24 AM)
+[2023.12.14-20.01.24:270][827]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-20.01.24:277][827]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006734s)
+[2023.12.14-20.01.24:277][827]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.006776s)
+[2023.12.14-20.01.24:299][827]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.12.14-20.01.24:301][827]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-20.01.24:301][827]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-20.01.24:302][827]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.14-20.01.24:303][827]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.14-20.01.24:303][827]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.14-20.01.24:303][827]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.14-20.01.24:303][827]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.14-20.01.24:304][827]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.14-20.01.24:304][827]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 413 ms)
+[2023.12.14-20.01.24:304][827]LogPlayLevel: PIE: World Init took: (0.003443s)
+[2023.12.14-20.01.24:304][827]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.12.14-20.01.24:304][827]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.14-20.01.24:304][827]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.14-20.01.24:304][827]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.14-20.01.24:305][827]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.14-20.01.24:305][827]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.14-20.01.24:305][827]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.14-20.01.24:305][827]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.14-20.01.24:305][827]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.14-20.01.24:305][827]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.14-20.01.24:305][827]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.14-20.01.24:305][827]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.14-20.01.24:308][827]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.14-20.01.24:339][827]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (3- Arctis 7 Chat)
+[2023.12.14-20.01.24:339][827]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.14-20.01.24:339][827]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.14-20.01.24:339][827]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.14-20.01.24:341][827]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.12.14-20.01.24:341][827]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.12.14-20.01.24:342][827]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.12.14-20.01.24:343][827]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.12.14-20.01.24:343][827]LogInit: FAudioDevice initialized with ID 6.
+[2023.12.14-20.01.24:343][827]LogAudio: Display: Audio Device (ID: 6) registered with world 'TopDownMap'.
+[2023.12.14-20.01.24:343][827]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2023.12.14-20.01.24:346][827]LogLoad: Game class is 'BP_CardGameMode_C'
+[2023.12.14-20.01.24:350][827]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.14-15.01.24
+[2023.12.14-20.01.24:350][827]LogWorld: Bringing up level for play took: 0.003485
+[2023.12.14-20.01.24:353][827]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2023.12.14-20.01.24:355][827]PIE: Server logged in
+[2023.12.14-20.01.24:356][827]PIE: Play in editor total start time 0.094 seconds.
+[2023.12.14-20.01.42:933][182]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-20.01.42:933][182]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-20.01.42:933][182]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.14-20.01.42:934][182]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-20.01.42:934][182]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.14-20.01.42:937][182]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.14-20.01.42:945][182]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-20.01.42:968][182]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.14-20.01.42:968][182]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2023.12.14-20.01.42:968][182]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.12.14-20.01.42:970][182]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.12.14-20.01.42:975][182]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-20.01.42:980][182]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2023.12.14-20.01.43:023][183]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2023.12.14-20.02.27:097][790]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.14-20.02.32:371][838]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2023.12.14-20.02.32:373][838]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDown/Maps/TopDownMap' took 0.024
+[2023.12.14-20.02.32:373][838]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/CardSystem/W_Card] ([2] browsable assets)...
+[2023.12.14-20.02.32:380][838]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/CardSystem/W_Card.W_Card]
+[2023.12.14-20.02.32:380][838]OBJ SavePackage: Finished generating thumbnails for package [/Game/CardSystem/W_Card]
+[2023.12.14-20.02.32:380][838]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_Card" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/Autosaves/Game/CardSystem/W_Card_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2023.12.14-20.02.32:416][838]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CardSystem/W_Card_Auto1
+[2023.12.14-20.02.32:417][838]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_Card_Auto11F626BF34D38A95D9530BEB050A581A6.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/Autosaves/Game/CardSystem/W_Card_Auto1.uasset'
+[2023.12.14-20.02.32:418][838]LogFileHelpers: Auto-saving content packages took 0.046
+[2023.12.14-20.02.48:870][687]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.14-20.02.53:434][870]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.02.53:520][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_Card" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_Card.uasset" SILENT=true
+[2023.12.14-20.02.53:557][870]LogSavePackage: Moving output files for package: /Game/CardSystem/W_Card
+[2023.12.14-20.02.53:559][870]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_Card401D3BFB4507A0172AE459AE1F0CDF7A.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_Card.uasset'
+[2023.12.14-20.02.53:570][870]LogFileHelpers: InternalPromptForCheckoutAndSave took 136 ms (total: 834 ms)
+[2023.12.14-20.02.53:571][870]AssetCheck: New page: Asset Save: W_Card
+[2023.12.14-20.02.53:571][870]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_Card.W_Card
+[2023.12.14-20.03.11:606][746]BlueprintLog: New page: Compile W_Card
+[2023.12.14-20.03.11:653][746]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.12.14-20.03.12:361][808]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.03.12:426][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_Card" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_Card.uasset" SILENT=true
+[2023.12.14-20.03.12:460][808]LogSavePackage: Moving output files for package: /Game/CardSystem/W_Card
+[2023.12.14-20.03.12:461][808]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_Card22976FC44E1A31DEA0113195DCBC2549.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_Card.uasset'
+[2023.12.14-20.03.12:470][808]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 943 ms)
+[2023.12.14-20.03.12:471][808]AssetCheck: New page: Asset Save: W_Card
+[2023.12.14-20.03.12:471][808]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_Card.W_Card
+[2023.12.14-20.03.17:786][279]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.14-20.03.17:799][279]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.14-20.03.17:800][279]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2023.12.14-20.03.17:806][279]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 6 ms (total: 41 ms)
+[2023.12.14-20.03.17:807][279]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.14-20.03.17:807][279]PIE: New page: PIE session: TopDownMap (Dec 14, 2023, 10:03:17 AM)
+[2023.12.14-20.03.17:807][279]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-20.03.17:814][279]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007118s)
+[2023.12.14-20.03.17:814][279]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.007161s)
+[2023.12.14-20.03.17:836][279]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2023.12.14-20.03.17:838][279]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-20.03.17:838][279]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-20.03.17:839][279]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.14-20.03.17:840][279]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.14-20.03.17:840][279]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.14-20.03.17:840][279]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.14-20.03.17:840][279]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.14-20.03.17:841][279]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.14-20.03.17:841][279]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 415 ms)
+[2023.12.14-20.03.17:841][279]LogPlayLevel: PIE: World Init took: (0.003359s)
+[2023.12.14-20.03.17:841][279]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.12.14-20.03.17:841][279]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.14-20.03.17:841][279]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.14-20.03.17:841][279]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.14-20.03.17:842][279]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.14-20.03.17:842][279]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.14-20.03.17:842][279]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.14-20.03.17:842][279]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.14-20.03.17:842][279]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.14-20.03.17:842][279]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.14-20.03.17:842][279]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.14-20.03.17:842][279]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.14-20.03.17:845][279]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.14-20.03.17:874][279]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (3- Arctis 7 Chat)
+[2023.12.14-20.03.17:875][279]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.14-20.03.17:875][279]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.14-20.03.17:875][279]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.14-20.03.17:877][279]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.12.14-20.03.17:877][279]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.12.14-20.03.17:879][279]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.12.14-20.03.17:879][279]LogInit: FAudioDevice initialized with ID 7.
+[2023.12.14-20.03.17:879][279]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.12.14-20.03.17:879][279]LogAudio: Display: Audio Device (ID: 7) registered with world 'TopDownMap'.
+[2023.12.14-20.03.17:879][279]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2023.12.14-20.03.17:882][279]LogLoad: Game class is 'BP_CardGameMode_C'
+[2023.12.14-20.03.17:885][279]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.14-15.03.17
+[2023.12.14-20.03.17:885][279]LogWorld: Bringing up level for play took: 0.003170
+[2023.12.14-20.03.17:888][279]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2023.12.14-20.03.17:891][279]PIE: Server logged in
+[2023.12.14-20.03.17:892][279]PIE: Play in editor total start time 0.092 seconds.
+[2023.12.14-20.04.17:633][283]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/CardSystem/S_CardInfo.S_CardInfo
+[2023.12.14-20.04.30:399][146]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Engine/Transient does not exist, will not scan.
+[2023.12.14-20.04.33:604][379]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.04.33:605][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/S_CardInfo" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/S_CardInfo.uasset" SILENT=true
+[2023.12.14-20.04.33:613][379]LogSavePackage: Moving output files for package: /Game/CardSystem/S_CardInfo
+[2023.12.14-20.04.33:614][379]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/S_CardInfo7E308DB640D1CAFA01906B90FD5F6299.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/S_CardInfo.uasset'
+[2023.12.14-20.04.33:615][379]LogFileHelpers: InternalPromptForCheckoutAndSave took 10 ms (total: 954 ms)
+[2023.12.14-20.04.33:616][379]AssetCheck: New page: Asset Save: S_CardInfo
+[2023.12.14-20.04.33:616][379]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/CardSystem/S_CardInfo.S_CardInfo
+[2023.12.14-20.04.35:954][537]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.04.35:954][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/DT_Cards" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/DT_Cards.uasset" SILENT=true
+[2023.12.14-20.04.35:961][537]LogSavePackage: Moving output files for package: /Game/CardSystem/DT_Cards
+[2023.12.14-20.04.35:962][537]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/DT_Cards9A6D8F1143C1692FA538D48FCCE1007E.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/DT_Cards.uasset'
+[2023.12.14-20.04.35:964][537]LogFileHelpers: InternalPromptForCheckoutAndSave took 9 ms (total: 963 ms)
+[2023.12.14-20.04.35:965][537]AssetCheck: New page: Asset Save: DT_Cards
+[2023.12.14-20.04.35:965][537]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/CardSystem/DT_Cards.DT_Cards
+[2023.12.14-20.04.37:715][656]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.04.37:731][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_Card" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_Card.uasset" SILENT=true
+[2023.12.14-20.04.37:750][656]LogSavePackage: Moving output files for package: /Game/CardSystem/W_Card
+[2023.12.14-20.04.37:751][656]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_Card2B557EE54B9E444780E0A2A9EB8A896F.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_Card.uasset'
+[2023.12.14-20.04.37:753][656]LogFileHelpers: InternalPromptForCheckoutAndSave took 37 ms (total: 1.00 sec)
+[2023.12.14-20.04.37:754][656]AssetCheck: New page: Asset Save: W_Card
+[2023.12.14-20.04.37:754][656]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_Card.W_Card
+[2023.12.14-20.04.39:156][754]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.04.39:171][754]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-20.04.39:184][754]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-20.04.39:185][754]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHand560168CB400D96413397CABFE888AB8C.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-20.04.39:186][754]LogFileHelpers: InternalPromptForCheckoutAndSave took 30 ms (total: 1.03 sec)
+[2023.12.14-20.04.39:187][754]AssetCheck: New page: Asset Save: W_CardHand
+[2023.12.14-20.04.39:187][754]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-20.04.49:161][397]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.14-20.04.53:874][680]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.14-20.04.58:144][938]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.14-20.05.06:129][445]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.14-20.05.10:791][730]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.14-20.05.15:875][ 34]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.14-20.05.30:745][918]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.14-20.05.44:100][692]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.14-20.06.16:470][571]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.14-20.06.22:466][966]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.14-20.06.29:744][457]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.14-20.06.49:844][600]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.14-20.06.52:207][778]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.06.52:207][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/DT_Cards" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/DT_Cards.uasset" SILENT=true
+[2023.12.14-20.06.52:215][778]LogSavePackage: Moving output files for package: /Game/CardSystem/DT_Cards
+[2023.12.14-20.06.52:216][778]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/DT_CardsC1390B0D481C6EDD4EA5BCB92D5D7190.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/DT_Cards.uasset'
+[2023.12.14-20.06.52:217][778]LogFileHelpers: InternalPromptForCheckoutAndSave took 10 ms (total: 1.04 sec)
+[2023.12.14-20.06.52:218][778]AssetCheck: New page: Asset Save: DT_Cards
+[2023.12.14-20.06.52:218][778]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/CardSystem/DT_Cards.DT_Cards
+[2023.12.14-20.06.55:883][ 29]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-20.06.55:883][ 29]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-20.06.55:883][ 29]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.14-20.06.55:883][ 29]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-20.06.55:883][ 29]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.14-20.06.55:887][ 29]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.14-20.06.55:894][ 29]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-20.06.55:912][ 29]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.14-20.06.55:913][ 29]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2023.12.14-20.06.55:913][ 29]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.12.14-20.06.55:915][ 29]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.12.14-20.06.55:921][ 29]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-20.06.55:925][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2023.12.14-20.06.55:969][ 30]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.12.14-20.06.57:257][115]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.14-20.06.57:270][115]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.14-20.06.57:270][115]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2023.12.14-20.06.57:277][115]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 7 ms (total: 48 ms)
+[2023.12.14-20.06.57:277][115]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.12.14-20.06.57:281][115]LogPlayLevel: [PlayLevel] Compiling BPI_AddCard before play...
+[2023.12.14-20.06.57:282][115]LogPlayLevel: [PlayLevel]   Compiling W_CardHUD as a dependent...
+[2023.12.14-20.06.57:299][115]LogPlayLevel: [PlayLevel] Compiling BPFL_Cards before play...
+[2023.12.14-20.06.57:304][115]LogPlayLevel: [PlayLevel] Compiling W_CardHand before play...
+[2023.12.14-20.06.57:343][115]LogPlayLevel: [PlayLevel] Compiling W_Card before play...
+[2023.12.14-20.06.57:346][115]LogBlueprint: Error: [AssetLog] E:\UnrealCardGame\UnrealCardGame\CardGameSystem\Content\CardSystem\W_Card.uasset: [Compiler] In use pin  Background Color  no longer exists on node  Break S_CardInfo . Please refresh node or break links to remove pin.
+[2023.12.14-20.06.57:348][115]LogBlueprint: Error: [AssetLog] E:\UnrealCardGame\UnrealCardGame\CardGameSystem\Content\CardSystem\W_Card.uasset: [Compiler] Failed to find a struct member for  Background Color
+[2023.12.14-20.06.57:433][115]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.12.14-20.06.57:435][115]LogPlayLevel: PlayLevel: Blueprint regeneration took 157 ms (5 blueprints)
+[2023.12.14-20.06.57:435][115]BlueprintLog: Warning: Blueprint failed to compile:  W_Card
+[2023.12.14-20.07.01:462][115]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2023.12.14-20.07.04:091][249]LogSlate: Window 'Message Log' being destroyed
+[2023.12.14-20.07.04:099][249]LogSlate: Window 'Message Log' being destroyed
+[2023.12.14-20.07.23:933][385]LogClass: Warning: Property BackgroundColor_11_139F5C724798D86B7C5AA09C0339F25B of BackgroundColor_12_139F5C724798D86B7C5AA09C0339F25B has a struct type mismatch (tag Color != prop InterpCurvePointLinearColor) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2023.12.14-20.07.23:934][385]LogClass: Warning: Property BackgroundColor_11_139F5C724798D86B7C5AA09C0339F25B of BackgroundColor_12_139F5C724798D86B7C5AA09C0339F25B has a struct type mismatch (tag Color != prop InterpCurvePointLinearColor) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2023.12.14-20.07.23:934][385]LogClass: Warning: Property BackgroundColor_11_139F5C724798D86B7C5AA09C0339F25B of BackgroundColor_12_139F5C724798D86B7C5AA09C0339F25B has a struct type mismatch (tag Color != prop InterpCurvePointLinearColor) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2023.12.14-20.07.23:934][385]LogClass: Warning: Property BackgroundColor_11_139F5C724798D86B7C5AA09C0339F25B of BackgroundColor_12_139F5C724798D86B7C5AA09C0339F25B has a struct type mismatch (tag Color != prop InterpCurvePointLinearColor) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2023.12.14-20.07.31:109][195]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.07.31:162][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/S_CardInfo" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/S_CardInfo.uasset" SILENT=true
+[2023.12.14-20.07.31:170][195]LogSavePackage: Moving output files for package: /Game/CardSystem/S_CardInfo
+[2023.12.14-20.07.31:171][195]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/S_CardInfo63370CCA49E1A70AE204B3B724821972.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/S_CardInfo.uasset'
+[2023.12.14-20.07.31:180][195]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 1.11 sec)
+[2023.12.14-20.07.31:181][195]AssetCheck: New page: Asset Save: S_CardInfo
+[2023.12.14-20.07.31:181][195]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/CardSystem/S_CardInfo.S_CardInfo
+[2023.12.14-20.07.33:026][388]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.07.33:083][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_Card" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_Card.uasset" SILENT=true
+[2023.12.14-20.07.33:104][388]LogSavePackage: Moving output files for package: /Game/CardSystem/W_Card
+[2023.12.14-20.07.33:105][388]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_Card430671B141BDE204C2D9B089B448379F.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_Card.uasset'
+[2023.12.14-20.07.33:116][388]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms (total: 1.20 sec)
+[2023.12.14-20.07.33:118][388]AssetCheck: New page: Asset Save: W_Card
+[2023.12.14-20.07.33:118][388]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_Card.W_Card
+[2023.12.14-20.07.33:472][420]BlueprintLog: New page: Compile W_Card
+[2023.12.14-20.07.33:515][420]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2023.12.14-20.07.35:970][656]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.07.36:030][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/DT_Cards" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/DT_Cards.uasset" SILENT=true
+[2023.12.14-20.07.36:037][656]LogSavePackage: Moving output files for package: /Game/CardSystem/DT_Cards
+[2023.12.14-20.07.36:038][656]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/DT_Cards5FA3FCCC4E276ADBD5071BB0842A4D25.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/DT_Cards.uasset'
+[2023.12.14-20.07.36:046][656]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 1.27 sec)
+[2023.12.14-20.07.36:047][656]AssetCheck: New page: Asset Save: DT_Cards
+[2023.12.14-20.07.36:047][656]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/CardSystem/DT_Cards.DT_Cards
+[2023.12.14-20.07.42:513][411]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.14-20.07.47:386][975]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.14-20.07.51:879][498]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.14-20.08.09:021][468]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.14-20.08.13:811][ 20]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.14-20.08.17:303][425]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.14-20.08.21:978][969]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.14-20.08.30:861][ 23]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.14-20.08.50:236][318]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.14-20.08.55:654][946]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.14-20.09.03:194][832]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.14-20.09.05:336][ 79]LogHttp: Warning: 000008280A6D0A00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2023.12.14-20.09.05:336][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 0 (Found bundle for host: 0x8278e980000 [serially])
+[2023.12.14-20.09.05:336][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2023.12.14-20.09.05:336][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2023.12.14-20.09.05:336][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2023.12.14-20.09.05:336][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 4 (OpenSSL SSL_read: Connection was reset, errno 10054)
+[2023.12.14-20.09.05:336][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2023.12.14-20.09.05:336][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 6 (state.rewindbeforesend = TRUE)
+[2023.12.14-20.09.05:336][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 7 (Closing connection)
+[2023.12.14-20.09.05:337][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2023.12.14-20.09.05:337][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 9 (Send failure: Connection was reset)
+[2023.12.14-20.09.05:337][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 10 (Recv failure: Connection was reset)
+[2023.12.14-20.09.05:337][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 11 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B98822127-44E9-D5AE-0223-1099AE6AAE48%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1e7efa1940821b144b09cf97ee26a9a7%7C6bd950454f344f899cbbf533dc4a0ebd%7C34c58119-012d-4647-8748-d9dfa0b47eac&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2023.12.14-20.09.05:337][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 12 (  Trying 18.208.49.191:443...)
+[2023.12.14-20.09.05:337][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 13 (Connected to datarouter.ol.epicgames.com (18.208.49.191) port 443)
+[2023.12.14-20.09.05:337][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 14 (ALPN: curl offers http/1.1)
+[2023.12.14-20.09.05:337][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 15 (SSL reusing session ID)
+[2023.12.14-20.09.05:337][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 16 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2023.12.14-20.09.05:337][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2023.12.14-20.09.05:337][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 18 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2023.12.14-20.09.05:337][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 19 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2023.12.14-20.09.05:337][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 20 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2023.12.14-20.09.05:337][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 21 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2023.12.14-20.09.05:337][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 22 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2023.12.14-20.09.05:337][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 23 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2023.12.14-20.09.05:337][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 24 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2023.12.14-20.09.05:337][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 25 (old SSL session ID is stale, removing)
+[2023.12.14-20.09.05:337][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 26 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2023.12.14-20.09.05:337][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 27 (ALPN: server accepted http/1.1)
+[2023.12.14-20.09.05:337][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 28 (Server certificate:)
+[2023.12.14-20.09.05:337][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 29 ( subject: CN=*.ol.epicgames.com)
+[2023.12.14-20.09.05:337][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 30 ( start date: Feb 28 00:00:00 2023 GMT)
+[2023.12.14-20.09.05:337][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 31 ( expire date: Mar 27 23:59:59 2024 GMT)
+[2023.12.14-20.09.05:337][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 32 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "*.ol.epicgames.com")
+[2023.12.14-20.09.05:337][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 33 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M02)
+[2023.12.14-20.09.05:337][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 34 ( SSL certificate verify ok.)
+[2023.12.14-20.09.05:337][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 35 (using HTTP/1.1)
+[2023.12.14-20.09.05:337][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 36 (necessary data rewind wasn't possible)
+[2023.12.14-20.09.05:338][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 37 (Closing connection)
+[2023.12.14-20.09.05:338][ 79]LogHttp: Warning: 000008280A6D0A00: libcurl info message cache 38 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2023.12.14-20.09.05:338][ 79]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B98822127-44E9-D5AE-0223-1099AE6AAE48%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=1e7efa1940821b144b09cf97ee26a9a7%7C6bd950454f344f899cbbf533dc4a0ebd%7C34c58119-012d-4647-8748-d9dfa0b47eac&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.12.14-20.09.05:360][ 81]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.09.05:412][ 81]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/DT_Cards" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/DT_Cards.uasset" SILENT=true
+[2023.12.14-20.09.05:419][ 81]LogSavePackage: Moving output files for package: /Game/CardSystem/DT_Cards
+[2023.12.14-20.09.05:420][ 81]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/DT_Cards4051F412401E0616310034863A80B2A1.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/DT_Cards.uasset'
+[2023.12.14-20.09.05:429][ 81]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 1.34 sec)
+[2023.12.14-20.09.05:430][ 81]AssetCheck: New page: Asset Save: DT_Cards
+[2023.12.14-20.09.05:430][ 81]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/CardSystem/DT_Cards.DT_Cards
+[2023.12.14-20.09.07:516][321]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.09.07:581][321]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-20.09.07:595][321]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-20.09.07:596][321]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHand39BC82EC4104E67EBC476F89F2EA5F3F.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-20.09.07:606][321]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms (total: 1.43 sec)
+[2023.12.14-20.09.07:607][321]AssetCheck: New page: Asset Save: W_CardHand
+[2023.12.14-20.09.07:607][321]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-20.09.08:327][400]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-20.09.08:369][400]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.12.14-20.09.12:261][733]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.14-20.09.12:272][733]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.14-20.09.12:273][733]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2023.12.14-20.09.12:279][733]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 6 ms (total: 54 ms)
+[2023.12.14-20.09.12:279][733]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.12.14-20.09.12:284][733]LogPlayLevel: [PlayLevel] Compiling BPI_AddCard before play...
+[2023.12.14-20.09.12:284][733]LogPlayLevel: [PlayLevel]   Compiling W_CardHUD as a dependent...
+[2023.12.14-20.09.12:301][733]LogPlayLevel: [PlayLevel] Compiling BPFL_Cards before play...
+[2023.12.14-20.09.12:329][733]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.12.14-20.09.12:330][733]LogPlayLevel: PlayLevel: Blueprint regeneration took 51 ms (3 blueprints)
+[2023.12.14-20.09.12:330][733]PIE: New page: PIE session: TopDownMap (Dec 14, 2023, 10:09:12 AM)
+[2023.12.14-20.09.12:331][733]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-20.09.12:337][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006877s)
+[2023.12.14-20.09.12:337][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.006924s)
+[2023.12.14-20.09.12:355][733]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.12.14-20.09.12:356][733]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-20.09.12:356][733]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-20.09.12:357][733]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.14-20.09.12:358][733]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.14-20.09.12:358][733]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.14-20.09.12:358][733]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.14-20.09.12:358][733]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.14-20.09.12:359][733]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.14-20.09.12:359][733]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 416 ms)
+[2023.12.14-20.09.12:359][733]LogPlayLevel: PIE: World Init took: (0.003332s)
+[2023.12.14-20.09.12:359][733]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.12.14-20.09.12:359][733]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.14-20.09.12:359][733]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.14-20.09.12:359][733]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.14-20.09.12:359][733]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.14-20.09.12:359][733]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.14-20.09.12:359][733]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.14-20.09.12:360][733]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.14-20.09.12:360][733]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.14-20.09.12:361][733]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.14-20.09.12:361][733]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.14-20.09.12:361][733]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.14-20.09.12:363][733]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.14-20.09.12:395][733]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (3- Arctis 7 Chat)
+[2023.12.14-20.09.12:395][733]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.14-20.09.12:395][733]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.14-20.09.12:395][733]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.14-20.09.12:397][733]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2023.12.14-20.09.12:397][733]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2023.12.14-20.09.12:399][733]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2023.12.14-20.09.12:399][733]LogInit: FAudioDevice initialized with ID 8.
+[2023.12.14-20.09.12:399][733]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2023.12.14-20.09.12:399][733]LogAudio: Display: Audio Device (ID: 8) registered with world 'TopDownMap'.
+[2023.12.14-20.09.12:399][733]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2023.12.14-20.09.12:402][733]LogLoad: Game class is 'BP_CardGameMode_C'
+[2023.12.14-20.09.12:406][733]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.14-15.09.12
+[2023.12.14-20.09.12:406][733]LogWorld: Bringing up level for play took: 0.003250
+[2023.12.14-20.09.12:409][733]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2023.12.14-20.09.12:411][733]PIE: Server logged in
+[2023.12.14-20.09.12:412][733]PIE: Play in editor total start time 0.14 seconds.
+[2023.12.14-20.09.38:291][620]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.14-20.09.41:319][851]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.09.41:319][851]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/DT_Cards" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/DT_Cards.uasset" SILENT=true
+[2023.12.14-20.09.41:326][851]LogSavePackage: Moving output files for package: /Game/CardSystem/DT_Cards
+[2023.12.14-20.09.41:327][851]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/DT_Cards09BA763B48D165A7224594838A360D6D.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/DT_Cards.uasset'
+[2023.12.14-20.09.41:328][851]LogFileHelpers: InternalPromptForCheckoutAndSave took 9 ms (total: 1.44 sec)
+[2023.12.14-20.09.41:329][851]AssetCheck: New page: Asset Save: DT_Cards
+[2023.12.14-20.09.41:329][851]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/CardSystem/DT_Cards.DT_Cards
+[2023.12.14-20.09.43:262][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-20.09.43:262][986]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-20.09.43:262][986]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.14-20.09.43:262][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-20.09.43:263][986]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.14-20.09.43:266][986]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.14-20.09.43:273][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-20.09.43:296][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-20.09.43:297][986]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2023.12.14-20.09.43:297][986]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.12.14-20.09.43:299][986]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.12.14-20.09.43:308][986]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2023.12.14-20.09.43:351][987]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2023.12.14-20.09.43:875][ 23]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.14-20.09.43:888][ 23]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.14-20.09.43:888][ 23]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2023.12.14-20.09.43:895][ 23]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 6 ms (total: 61 ms)
+[2023.12.14-20.09.43:895][ 23]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.14-20.09.43:895][ 23]PIE: New page: PIE session: TopDownMap (Dec 14, 2023, 10:09:43 AM)
+[2023.12.14-20.09.43:895][ 23]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-20.09.43:902][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006723s)
+[2023.12.14-20.09.43:902][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.006765s)
+[2023.12.14-20.09.43:920][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2023.12.14-20.09.43:922][ 23]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-20.09.43:922][ 23]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-20.09.43:922][ 23]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.14-20.09.43:923][ 23]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.14-20.09.43:923][ 23]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.14-20.09.43:923][ 23]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.14-20.09.43:923][ 23]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.14-20.09.43:925][ 23]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.14-20.09.43:925][ 23]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 418 ms)
+[2023.12.14-20.09.43:925][ 23]LogPlayLevel: PIE: World Init took: (0.003348s)
+[2023.12.14-20.09.43:925][ 23]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.12.14-20.09.43:925][ 23]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.14-20.09.43:925][ 23]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.14-20.09.43:925][ 23]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.14-20.09.43:925][ 23]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.14-20.09.43:925][ 23]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.14-20.09.43:925][ 23]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.14-20.09.43:925][ 23]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.14-20.09.43:925][ 23]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.14-20.09.43:926][ 23]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.14-20.09.43:926][ 23]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.14-20.09.43:926][ 23]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.14-20.09.43:928][ 23]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.14-20.09.43:959][ 23]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (3- Arctis 7 Chat)
+[2023.12.14-20.09.43:960][ 23]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.14-20.09.43:960][ 23]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.14-20.09.43:960][ 23]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.14-20.09.43:961][ 23]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.12.14-20.09.43:961][ 23]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2023.12.14-20.09.43:965][ 23]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.12.14-20.09.43:965][ 23]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.12.14-20.09.43:965][ 23]LogInit: FAudioDevice initialized with ID 9.
+[2023.12.14-20.09.43:965][ 23]LogAudio: Display: Audio Device (ID: 9) registered with world 'TopDownMap'.
+[2023.12.14-20.09.43:965][ 23]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2023.12.14-20.09.43:969][ 23]LogLoad: Game class is 'BP_CardGameMode_C'
+[2023.12.14-20.09.43:973][ 23]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.14-15.09.43
+[2023.12.14-20.09.43:973][ 23]LogWorld: Bringing up level for play took: 0.003437
+[2023.12.14-20.09.43:976][ 23]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2023.12.14-20.09.43:978][ 23]PIE: Server logged in
+[2023.12.14-20.09.43:980][ 23]PIE: Play in editor total start time 0.091 seconds.
+[2023.12.14-20.10.07:002][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-20.10.07:002][596]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-20.10.07:002][596]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.14-20.10.07:003][596]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-20.10.07:003][596]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.14-20.10.07:009][596]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.14-20.10.07:017][596]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-20.10.07:037][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-20.10.07:038][596]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2023.12.14-20.10.07:038][596]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.12.14-20.10.07:040][596]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.12.14-20.10.07:049][596]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.12.14-20.10.07:093][597]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2023.12.14-20.11.26:841][156]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.14-20.11.26:854][156]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.14-20.11.26:854][156]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2023.12.14-20.11.26:862][156]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 7 ms (total: 68 ms)
+[2023.12.14-20.11.26:862][156]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.14-20.11.26:862][156]PIE: New page: PIE session: TopDownMap (Dec 14, 2023, 10:11:26 AM)
+[2023.12.14-20.11.26:862][156]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-20.11.26:869][156]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007202s)
+[2023.12.14-20.11.26:869][156]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.007266s)
+[2023.12.14-20.11.26:888][156]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.12.14-20.11.26:889][156]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-20.11.26:890][156]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-20.11.26:890][156]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.14-20.11.26:891][156]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.14-20.11.26:891][156]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.14-20.11.26:891][156]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.14-20.11.26:891][156]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.14-20.11.26:893][156]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.14-20.11.26:893][156]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 420 ms)
+[2023.12.14-20.11.26:893][156]LogPlayLevel: PIE: World Init took: (0.003332s)
+[2023.12.14-20.11.26:893][156]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.12.14-20.11.26:893][156]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.14-20.11.26:893][156]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.14-20.11.26:893][156]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.14-20.11.26:893][156]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.14-20.11.26:893][156]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.14-20.11.26:893][156]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.14-20.11.26:893][156]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.14-20.11.26:893][156]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.14-20.11.26:894][156]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.14-20.11.26:894][156]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.14-20.11.26:894][156]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.14-20.11.26:896][156]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.14-20.11.26:928][156]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (3- Arctis 7 Chat)
+[2023.12.14-20.11.26:929][156]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.14-20.11.26:929][156]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.14-20.11.26:929][156]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.14-20.11.26:930][156]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.12.14-20.11.26:930][156]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.12.14-20.11.26:932][156]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.12.14-20.11.26:932][156]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.12.14-20.11.26:932][156]LogInit: FAudioDevice initialized with ID 10.
+[2023.12.14-20.11.26:932][156]LogAudio: Display: Audio Device (ID: 10) registered with world 'TopDownMap'.
+[2023.12.14-20.11.26:932][156]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2023.12.14-20.11.26:936][156]LogLoad: Game class is 'BP_CardGameMode_C'
+[2023.12.14-20.11.26:939][156]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.14-15.11.26
+[2023.12.14-20.11.26:939][156]LogWorld: Bringing up level for play took: 0.003152
+[2023.12.14-20.11.26:942][156]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2023.12.14-20.11.26:944][156]PIE: Server logged in
+[2023.12.14-20.11.26:946][156]PIE: Play in editor total start time 0.091 seconds.
+[2023.12.14-20.11.50:763][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-20.11.50:763][852]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-20.11.50:763][852]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.14-20.11.50:764][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-20.11.50:764][852]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.14-20.11.50:768][852]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.14-20.11.50:776][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-20.11.50:800][852]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.14-20.11.50:800][852]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2023.12.14-20.11.50:800][852]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.12.14-20.11.50:802][852]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.12.14-20.11.50:807][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-20.11.50:812][852]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2023.12.14-20.11.50:869][853]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2023.12.14-20.12.44:244][987]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2023.12.14-20.12.44:244][987]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2023.12.14-20.13.46:293][373]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-20.13.46:334][373]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.12.14-20.13.47:034][436]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.13.47:071][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-20.13.47:085][436]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-20.13.47:086][436]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHandD07EE806448CC3B3ABE18CB4970F923F.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-20.13.47:094][436]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 1.50 sec)
+[2023.12.14-20.13.47:096][436]AssetCheck: New page: Asset Save: W_CardHand
+[2023.12.14-20.13.47:096][436]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-20.13.56:248][445]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2023.12.14-20.15.41:059][109]LogEditorTransaction: Undo Move Nodes
+[2023.12.14-20.17.32:944][238]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2023.12.14-20.17.32:946][238]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDown/Maps/TopDownMap' took 0.027
+[2023.12.14-20.17.32:947][238]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/CardSystem/W_CardHand] ([2] browsable assets)...
+[2023.12.14-20.17.32:950][238]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand]
+[2023.12.14-20.17.32:950][238]OBJ SavePackage: Finished generating thumbnails for package [/Game/CardSystem/W_CardHand]
+[2023.12.14-20.17.32:950][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/Autosaves/Game/CardSystem/W_CardHand_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2023.12.14-20.17.32:966][238]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CardSystem/W_CardHand_Auto2
+[2023.12.14-20.17.32:967][238]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHand_Auto2619E6A3C408EEEDEA0D90582D9C4CBC5.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/Autosaves/Game/CardSystem/W_CardHand_Auto2.uasset'
+[2023.12.14-20.17.32:969][238]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CardSystem/BPI_AddCard] ([2] browsable assets)...
+[2023.12.14-20.17.32:969][238]OBJ SavePackage: Finished generating thumbnails for package [/Game/CardSystem/BPI_AddCard]
+[2023.12.14-20.17.32:969][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/BPI_AddCard" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/Autosaves/Game/CardSystem/BPI_AddCard_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2023.12.14-20.17.32:976][238]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CardSystem/BPI_AddCard_Auto2
+[2023.12.14-20.17.32:976][238]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/BPI_AddCard_Auto2085FFA834C570F2865923E8BB60C875E.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/Autosaves/Game/CardSystem/BPI_AddCard_Auto2.uasset'
+[2023.12.14-20.17.32:977][238]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CardSystem/BPFL_Cards] ([2] browsable assets)...
+[2023.12.14-20.17.32:977][238]OBJ SavePackage: Finished generating thumbnails for package [/Game/CardSystem/BPFL_Cards]
+[2023.12.14-20.17.32:977][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/BPFL_Cards" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/Autosaves/Game/CardSystem/BPFL_Cards_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2023.12.14-20.17.32:986][238]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CardSystem/BPFL_Cards_Auto2
+[2023.12.14-20.17.32:987][238]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/BPFL_Cards_Auto2130E23C342AC7241212A17AE880AFC7A.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/Autosaves/Game/CardSystem/BPFL_Cards_Auto2.uasset'
+[2023.12.14-20.17.32:989][238]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/CardSystem/W_CardHUD] ([2] browsable assets)...
+[2023.12.14-20.17.32:992][238]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/CardSystem/W_CardHUD.W_CardHUD]
+[2023.12.14-20.17.32:992][238]OBJ SavePackage: Finished generating thumbnails for package [/Game/CardSystem/W_CardHUD]
+[2023.12.14-20.17.32:992][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHUD" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/Autosaves/Game/CardSystem/W_CardHUD_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2023.12.14-20.17.33:006][238]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CardSystem/W_CardHUD_Auto2
+[2023.12.14-20.17.33:007][238]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHUD_Auto23D1C49E64FF5D62C8898CBA31FCB248B.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/Autosaves/Game/CardSystem/W_CardHUD_Auto2.uasset'
+[2023.12.14-20.17.33:008][238]LogFileHelpers: Auto-saving content packages took 0.062
+[2023.12.14-20.18.31:379][598]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-20.18.31:431][598]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2023.12.14-20.18.32:028][650]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.18.32:082][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-20.18.32:099][650]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-20.18.32:100][650]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHand2A57C38049177D2A164499B38E96860B.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-20.18.32:108][650]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 1.58 sec)
+[2023.12.14-20.18.32:109][650]AssetCheck: New page: Asset Save: W_CardHand
+[2023.12.14-20.18.32:109][650]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-20.28.01:003][522]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2023.12.14-20.28.01:007][522]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDown/Maps/TopDownMap' took 0.034
+[2023.12.14-20.28.01:008][522]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/CardSystem/W_CardHand] ([2] browsable assets)...
+[2023.12.14-20.28.01:014][522]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand]
+[2023.12.14-20.28.01:014][522]OBJ SavePackage: Finished generating thumbnails for package [/Game/CardSystem/W_CardHand]
+[2023.12.14-20.28.01:014][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/Autosaves/Game/CardSystem/W_CardHand_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.12.14-20.28.01:032][522]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CardSystem/W_CardHand_Auto3
+[2023.12.14-20.28.01:032][522]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHand_Auto3DDF29A75418971871EC8AD80FF76D9EB.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/Autosaves/Game/CardSystem/W_CardHand_Auto3.uasset'
+[2023.12.14-20.28.01:033][522]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/CardSystem/W_Card] ([2] browsable assets)...
+[2023.12.14-20.28.01:039][522]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/CardSystem/W_Card.W_Card]
+[2023.12.14-20.28.01:039][522]OBJ SavePackage: Finished generating thumbnails for package [/Game/CardSystem/W_Card]
+[2023.12.14-20.28.01:039][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_Card" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/Autosaves/Game/CardSystem/W_Card_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.12.14-20.28.01:068][522]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CardSystem/W_Card_Auto3
+[2023.12.14-20.28.01:070][522]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_Card_Auto3A0CC8FA74499CF16850342A510CF94A3.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/Autosaves/Game/CardSystem/W_Card_Auto3.uasset'
+[2023.12.14-20.28.01:071][522]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CardSystem/W_CardHUD] ([2] browsable assets)...
+[2023.12.14-20.28.01:071][522]OBJ SavePackage: Finished generating thumbnails for package [/Game/CardSystem/W_CardHUD]
+[2023.12.14-20.28.01:071][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHUD" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/Autosaves/Game/CardSystem/W_CardHUD_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.12.14-20.28.01:085][522]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CardSystem/W_CardHUD_Auto3
+[2023.12.14-20.28.01:085][522]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHUD_Auto30843583144BCA397498DCCA7AE688C62.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/Autosaves/Game/CardSystem/W_CardHUD_Auto3.uasset'
+[2023.12.14-20.28.01:086][522]LogFileHelpers: Auto-saving content packages took 0.079
+[2023.12.14-20.32.24:184][ 21]LogEditorTransaction: Undo Create Pin Link
+[2023.12.14-20.33.11:406][350]BlueprintLog: New page: Compile W_Card
+[2023.12.14-20.33.11:476][350]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2023.12.14-20.33.12:748][470]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.33.12:810][470]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_Card" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_Card.uasset" SILENT=true
+[2023.12.14-20.33.12:858][470]LogSavePackage: Moving output files for package: /Game/CardSystem/W_Card
+[2023.12.14-20.33.12:859][470]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardA0594F4F44464BDBC526138860717BF0.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_Card.uasset'
+[2023.12.14-20.33.12:868][470]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 1.70 sec)
+[2023.12.14-20.33.12:870][470]AssetCheck: New page: Asset Save: W_Card
+[2023.12.14-20.33.12:870][470]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_Card.W_Card
+[2023.12.14-20.36.10:898][ 80]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CardSystem/BPFL_Cards.BPFL_Cards
+[2023.12.14-20.36.10:898][ 80]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-20.36.10:899][ 80]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-20.41.56:545][754]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.41.56:609][754]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/BPFL_Cards" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/BPFL_Cards.uasset" SILENT=true
+[2023.12.14-20.41.56:626][754]LogSavePackage: Moving output files for package: /Game/CardSystem/BPFL_Cards
+[2023.12.14-20.41.56:627][754]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/BPFL_Cards82426995475DD0F5B1EEBD952105CB8B.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/BPFL_Cards.uasset'
+[2023.12.14-20.41.56:638][754]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 1.79 sec)
+[2023.12.14-20.41.56:639][754]AssetCheck: New page: Asset Save: BPFL_Cards
+[2023.12.14-20.41.56:639][754]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CardSystem/BPFL_Cards.BPFL_Cards
+[2023.12.14-20.41.57:074][805]BlueprintLog: New page: Compile BPFL_Cards
+[2023.12.14-20.41.57:111][805]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2023.12.14-20.45.21:415][158]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-20.45.21:470][158]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2023.12.14-20.45.22:289][210]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.45.22:362][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-20.45.22:380][210]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-20.45.22:381][210]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHand1ED38377487D8AC3707EFC9EFC359BE3.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-20.45.22:393][210]LogFileHelpers: InternalPromptForCheckoutAndSave took 103 ms (total: 1.90 sec)
+[2023.12.14-20.45.22:394][210]AssetCheck: New page: Asset Save: W_CardHand
+[2023.12.14-20.45.22:394][210]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-20.46.47:877][749]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-20.46.47:928][749]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.12.14-20.46.48:947][837]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.46.49:021][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-20.46.49:039][837]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-20.46.49:041][837]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHand25CE71D144CD865CD2D8D49DE2CADC27.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-20.46.49:049][837]LogFileHelpers: InternalPromptForCheckoutAndSave took 103 ms (total: 2.00 sec)
+[2023.12.14-20.46.49:051][837]AssetCheck: New page: Asset Save: W_CardHand
+[2023.12.14-20.46.49:051][837]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-20.47.39:276][438]LogDerivedDataCache: C:/Users/Nicho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.116 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 761 files in 1199 folders with total size 24 MiB.
+[2023.12.14-20.47.59:357][769]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.47.59:436][769]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-20.47.59:472][769]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-20.47.59:473][769]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHand54D46875417F79BE2A43D4B176495CA3.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-20.47.59:482][769]LogFileHelpers: InternalPromptForCheckoutAndSave took 125 ms (total: 2.13 sec)
+[2023.12.14-20.47.59:484][769]AssetCheck: New page: Asset Save: W_CardHand
+[2023.12.14-20.47.59:484][769]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-20.48.52:348][432]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.48.52:419][432]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-20.48.52:456][432]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-20.48.52:457][432]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHand2477AD3C48247F0635CB6BACA0A24967.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-20.48.52:467][432]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 2.25 sec)
+[2023.12.14-20.48.52:469][432]AssetCheck: New page: Asset Save: W_CardHand
+[2023.12.14-20.48.52:469][432]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-20.48.57:738][ 52]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-20.48.57:794][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2023.12.14-20.48.58:331][ 95]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.48.58:399][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-20.48.58:421][ 95]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-20.48.58:422][ 95]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHandC06E52084591BDD5AF064F91FD14DBD6.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-20.48.58:432][ 95]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 2.35 sec)
+[2023.12.14-20.48.58:433][ 95]AssetCheck: New page: Asset Save: W_CardHand
+[2023.12.14-20.48.58:433][ 95]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-20.49.56:264][679]LogEditorTransaction: Undo Function Dropped on Graph
+[2023.12.14-20.49.56:844][688]LogEditorTransaction: Undo Function Dropped on Graph
+[2023.12.14-20.52.52:835][274]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.12.14-20.52.52:846][274]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.52.52:915][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-20.52.52:964][274]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-20.52.52:965][274]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHand019295D64C6CE112AEA3F78D403C3306.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-20.52.52:967][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/BPI_AddCard" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/BPI_AddCard.uasset" SILENT=true
+[2023.12.14-20.52.52:974][274]LogSavePackage: Moving output files for package: /Game/CardSystem/BPI_AddCard
+[2023.12.14-20.52.52:975][274]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/BPI_AddCard167F8FC64B29950B1E14EF9A7731544B.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/BPI_AddCard.uasset'
+[2023.12.14-20.52.52:982][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_Card" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_Card.uasset" SILENT=true
+[2023.12.14-20.52.53:022][274]LogSavePackage: Moving output files for package: /Game/CardSystem/W_Card
+[2023.12.14-20.52.53:023][274]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardE2F69AED4E39B3776C20F4858D6D7887.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_Card.uasset'
+[2023.12.14-20.52.53:025][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHUD" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHUD.uasset" SILENT=true
+[2023.12.14-20.52.53:039][274]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHUD
+[2023.12.14-20.52.53:040][274]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHUDF73F12814F2EA25E8463E582C459948B.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHUD.uasset'
+[2023.12.14-20.52.53:051][274]LogFileHelpers: InternalPromptForCheckoutAndSave took 205 ms (total: 2.55 sec)
+[2023.12.14-20.52.53:056][274]AssetCheck: New page: Asset Save: multiple assets
+[2023.12.14-20.52.53:056][274]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-20.52.53:056][274]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CardSystem/BPI_AddCard.BPI_AddCard
+[2023.12.14-20.52.53:056][274]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_Card.W_Card
+[2023.12.14-20.52.53:057][274]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHUD.W_CardHUD
+[2023.12.14-20.53.42:254][500]BlueprintLog: New page: Compile W_CardHand
+[2023.12.14-20.53.42:317][500]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2023.12.14-20.53.43:221][591]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.53.43:275][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-20.53.43:299][591]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-20.53.43:300][591]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHand0F62FF0F44287DFFCCC5178708019ED2.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-20.53.43:309][591]LogFileHelpers: InternalPromptForCheckoutAndSave took 87 ms (total: 2.64 sec)
+[2023.12.14-20.53.43:311][591]AssetCheck: New page: Asset Save: W_CardHand
+[2023.12.14-20.53.43:311][591]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-20.54.49:002][277]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.54.49:059][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-20.54.49:089][277]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-20.54.49:090][277]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHand738D6A134371B80D891117AEB6D69203.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-20.54.49:101][277]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms (total: 2.74 sec)
+[2023.12.14-20.54.49:102][277]AssetCheck: New page: Asset Save: W_CardHand
+[2023.12.14-20.54.49:102][277]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-20.54.52:557][545]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.14-20.54.52:572][545]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.14-20.54.52:572][545]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2023.12.14-20.54.52:580][545]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 7 ms (total: 76 ms)
+[2023.12.14-20.54.52:580][545]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.12.14-20.54.52:583][545]LogPlayLevel: [PlayLevel] Compiling W_CardHand before play...
+[2023.12.14-20.54.52:648][545]LogPlayLevel: [PlayLevel] Compiling W_Card before play...
+[2023.12.14-20.54.52:756][545]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.12.14-20.54.52:761][545]LogPlayLevel: PlayLevel: Blueprint regeneration took 180 ms (2 blueprints)
+[2023.12.14-20.54.52:761][545]PIE: New page: PIE session: TopDownMap (Dec 14, 2023, 10:54:52 AM)
+[2023.12.14-20.54.52:761][545]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-20.54.52:768][545]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006901s)
+[2023.12.14-20.54.52:768][545]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.006948s)
+[2023.12.14-20.54.52:787][545]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.12.14-20.54.52:788][545]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-20.54.52:789][545]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-20.54.52:789][545]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.14-20.54.52:790][545]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.14-20.54.52:790][545]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.14-20.54.52:790][545]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.14-20.54.52:790][545]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.14-20.54.52:792][545]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.14-20.54.52:792][545]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 422 ms)
+[2023.12.14-20.54.52:792][545]LogPlayLevel: PIE: World Init took: (0.003679s)
+[2023.12.14-20.54.52:792][545]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.12.14-20.54.52:792][545]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.14-20.54.52:792][545]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.14-20.54.52:792][545]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.14-20.54.52:792][545]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.14-20.54.52:792][545]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.14-20.54.52:792][545]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.14-20.54.52:792][545]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.14-20.54.52:792][545]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.14-20.54.52:793][545]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.14-20.54.52:793][545]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.14-20.54.52:793][545]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.14-20.54.52:796][545]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.14-20.54.52:828][545]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (3- Arctis 7 Chat)
+[2023.12.14-20.54.52:829][545]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.14-20.54.52:829][545]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.14-20.54.52:829][545]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.14-20.54.52:830][545]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2023.12.14-20.54.52:830][545]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2023.12.14-20.54.52:832][545]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.12.14-20.54.52:832][545]LogInit: FAudioDevice initialized with ID 11.
+[2023.12.14-20.54.52:832][545]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2023.12.14-20.54.52:832][545]LogAudio: Display: Audio Device (ID: 11) registered with world 'TopDownMap'.
+[2023.12.14-20.54.52:832][545]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2023.12.14-20.54.52:835][545]LogLoad: Game class is 'BP_CardGameMode_C'
+[2023.12.14-20.54.52:839][545]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.14-15.54.52
+[2023.12.14-20.54.52:839][545]LogWorld: Bringing up level for play took: 0.003369
+[2023.12.14-20.54.52:842][545]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2023.12.14-20.54.52:845][545]PIE: Server logged in
+[2023.12.14-20.54.52:846][545]PIE: Play in editor total start time 0.274 seconds.
+[2023.12.14-20.55.09:331][620]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-20.55.09:331][620]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-20.55.09:331][620]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.14-20.55.09:332][620]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-20.55.09:332][620]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.14-20.55.09:336][620]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.14-20.55.09:352][620]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-20.55.09:387][620]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-20.55.09:388][620]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2023.12.14-20.55.09:388][620]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.12.14-20.55.09:391][620]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.12.14-20.55.09:403][620]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2023.12.14-20.55.09:461][621]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2023.12.14-20.55.40:479][ 61]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.14-20.55.40:541][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CardSystem/W_CardHand" FILE="E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset" SILENT=true
+[2023.12.14-20.55.40:564][ 61]LogSavePackage: Moving output files for package: /Game/CardSystem/W_CardHand
+[2023.12.14-20.55.40:565][ 61]LogSavePackage: Moving 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Saved/W_CardHandA8E5CD7F45F2323373D530BE4B7F2082.tmp' to 'E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset'
+[2023.12.14-20.55.40:574][ 61]LogFileHelpers: InternalPromptForCheckoutAndSave took 95 ms (total: 2.83 sec)
+[2023.12.14-20.55.40:576][ 61]AssetCheck: New page: Asset Save: W_CardHand
+[2023.12.14-20.55.40:576][ 61]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/CardSystem/W_CardHand.W_CardHand
+[2023.12.14-20.55.45:025][451]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.14-20.55.45:038][451]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.14-20.55.45:038][451]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2023.12.14-20.55.45:045][451]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 6 ms (total: 83 ms)
+[2023.12.14-20.55.45:045][451]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.12.14-20.55.45:048][451]LogPlayLevel: [PlayLevel] Compiling W_CardHand before play...
+[2023.12.14-20.55.45:128][451]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2023.12.14-20.55.45:132][451]LogPlayLevel: PlayLevel: Blueprint regeneration took 87 ms (1 blueprints)
+[2023.12.14-20.55.45:133][451]PIE: New page: PIE session: TopDownMap (Dec 14, 2023, 10:55:45 AM)
+[2023.12.14-20.55.45:133][451]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-20.55.45:139][451]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006747s)
+[2023.12.14-20.55.45:140][451]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.006799s)
+[2023.12.14-20.55.45:162][451]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2023.12.14-20.55.45:164][451]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.14-20.55.45:164][451]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.14-20.55.45:165][451]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.14-20.55.45:165][451]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.14-20.55.45:165][451]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.14-20.55.45:165][451]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.14-20.55.45:165][451]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.14-20.55.45:167][451]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.14-20.55.45:167][451]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 423 ms)
+[2023.12.14-20.55.45:167][451]LogPlayLevel: PIE: World Init took: (0.003234s)
+[2023.12.14-20.55.45:167][451]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.12.14-20.55.45:167][451]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.14-20.55.45:167][451]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.14-20.55.45:167][451]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.14-20.55.45:167][451]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.14-20.55.45:167][451]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.14-20.55.45:167][451]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.14-20.55.45:167][451]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.14-20.55.45:167][451]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.14-20.55.45:168][451]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.14-20.55.45:168][451]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.14-20.55.45:168][451]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.14-20.55.45:170][451]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.14-20.55.45:201][451]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (3- Arctis 7 Chat)
+[2023.12.14-20.55.45:201][451]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.14-20.55.45:201][451]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.14-20.55.45:201][451]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.14-20.55.45:202][451]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2023.12.14-20.55.45:202][451]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2023.12.14-20.55.45:204][451]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2023.12.14-20.55.45:204][451]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2023.12.14-20.55.45:204][451]LogInit: FAudioDevice initialized with ID 12.
+[2023.12.14-20.55.45:204][451]LogAudio: Display: Audio Device (ID: 12) registered with world 'TopDownMap'.
+[2023.12.14-20.55.45:204][451]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2023.12.14-20.55.45:207][451]LogLoad: Game class is 'BP_CardGameMode_C'
+[2023.12.14-20.55.45:210][451]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.14-15.55.45
+[2023.12.14-20.55.45:211][451]LogWorld: Bringing up level for play took: 0.003283
+[2023.12.14-20.55.45:214][451]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2023.12.14-20.55.45:216][451]PIE: Server logged in
+[2023.12.14-20.55.45:217][451]PIE: Play in editor total start time 0.179 seconds.
+[2023.12.14-20.56.02:611][747]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-20.56.02:611][747]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.14-20.56.02:611][747]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.14-20.56.02:612][747]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-20.56.02:612][747]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.14-20.56.02:616][747]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.14-20.56.02:625][747]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.14-20.56.02:652][747]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.14-20.56.02:652][747]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2023.12.14-20.56.02:652][747]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.12.14-20.56.02:655][747]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.12.14-20.56.02:665][747]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2023.12.14-20.56.02:709][748]LogPlayLevel: Display: Destroying online subsystem :Context_25
