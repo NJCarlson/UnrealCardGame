@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eg5GBt/D5FBjBPZl72BUmwmI/tAe5MFZBJEKgpcrixhHKSkdN8Vbf1D9IER4XEFG+QhTWZgIks8UXK2M4etNCA==",
+  "dgSpecHash": "bidQBQ4xxD5VDEw1GFUxc+NVv9UIS/FLpe7GMrrMP7/ZkKSHDYwotAHf9/Al/cCAkxLThgwqLBDz/25ZGud2Rg==",
   "success": true,
-  "projectFilePath": "E:\\UnrealCardGame\\CardGameSystem\\Intermediate\\Build\\BuildRulesProjects\\CardGameSystemModuleRules\\CardGameSystemModuleRules.csproj",
+  "projectFilePath": "E:\\UnrealCardGame\\UnrealCardGame\\CardGameSystem\\Intermediate\\Build\\BuildRulesProjects\\CardGameSystemModuleRules\\CardGameSystemModuleRules.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nicho\\.nuget\\packages\\blake3\\0.5.1\\blake3.0.5.1.nupkg.sha512",
     "C:\\Users\\Nicho\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
