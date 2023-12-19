@@ -5,6 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/kramb/Documents/GitHub/UnrealCardGame/CardGameSystem/Content/CardSystem/DT_Cards.uasset",
+				"C:/Users/kramb/Documents/GitHub/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHUD.uasset",
+				"C:/Users/kramb/Documents/GitHub/UnrealCardGame/CardGameSystem/Content/CardSystem/BPFL_Cards.uasset",
+				"C:/Users/kramb/Documents/GitHub/UnrealCardGame/CardGameSystem/Content/CardSystem/BPI_AddCard.uasset",
+				"C:/Users/kramb/Documents/GitHub/UnrealCardGame/CardGameSystem/Content/CardSystem/S_CardInfo.uasset",
+				"C:/Users/kramb/Documents/GitHub/UnrealCardGame/CardGameSystem/Content/CardSystem/W_Card.uasset",
+				"C:/Users/kramb/Documents/GitHub/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset",
 				"E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/W_CardHand.uasset",
 				"E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/BPI_AddCard.uasset",
 				"E:/UnrealCardGame/UnrealCardGame/CardGameSystem/Content/CardSystem/S_CardInfo.uasset",
